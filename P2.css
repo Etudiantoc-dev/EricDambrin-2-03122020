@@ -118,11 +118,7 @@ nav a
     
    
 }
-.logo
-{
-  
 
-}
 .informatif
 {
     position: relative;
@@ -132,11 +128,7 @@ nav a
     
 }
 
-    
-    
-}
 
-    
 }
 nav i
 {
@@ -145,12 +137,8 @@ nav i
     width: 40px;
     border: 1px grey solid;
     border-radius: 30px;
-    text-align: ;
     padding: 2px;
    
-    
-   
-    
 }
 section
 {
@@ -160,19 +148,15 @@ section
 }
 
 
-
-
-
-
-
 #centre_page
 {
     
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: ;/*àvoir??*/
     justify-content: space-between;
     position: relative;
     top: 60px;
+    width: 1400px;
     
     
     
@@ -183,7 +167,8 @@ section
     background-color:#F2F2F2;
     border: 3px #F2F2F2;
     border-radius: 20px;
-    padding: 822px 510px;
+    width: 950px;
+    margin: auto;
    
     
     
@@ -191,8 +176,8 @@ section
 .pp
 {
     
-    background-color:#F2F2F2;
-    border: 3px #F2F2F2;
+    background-color: #F2F2F2;
+    border: 5px #F2F2F2;
     border-radius: 20px;
     padding: 210px;
     position: relative;
