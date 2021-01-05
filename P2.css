@@ -142,6 +142,7 @@ nav i
 }
 section
 {
+    display: flex;
     position: absolute;
     top: auto;
     top: 300px
@@ -154,21 +155,25 @@ section
     display: flex;
     flex-direction: ;/*àvoir??*/
     justify-content: space-between;
-    position: relative;
+    position: absolute;
+    top: 200px ;
     top: 60px;
     width: 1400px;
+    border: 3px black solid;
+    height: 620px;
+    
     
     
     
 }
 .hm
 {
-    
+    display: flex;
     background-color:#F2F2F2;
     border: 3px #F2F2F2;
     border-radius: 20px;
-    width: 950px;
-    margin: auto;
+    width: 910px;
+    
    
     
     
@@ -179,32 +184,25 @@ section
     background-color: #F2F2F2;
     border: 5px #F2F2F2;
     border-radius: 20px;
-    padding: 210px;
-    position: relative;
-    right: 20px;
+    padding: 220px;
+   
+   
     
 }
 section h1
 {
     
-   position: relative;
-   bottom: 800px;
-   right: 450px;
-   
+  
     
 
 }
 .AC
 {
-    flex-direction: column;
-    position: relative;
-    bottom: 800px;
-    right: 450px;
+    
 }
 .HP
 {
-    position: relative;
-    bottom: 800px;
+    
     
 }
 
