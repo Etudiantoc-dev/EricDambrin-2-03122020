@@ -17,11 +17,12 @@ body{
     
     
 }
-#mise_en_page
+#bloc_page
 {
     
     
-    margin: 44px 60px 1880px 50px ;
+    width: 1400px;
+    margin: auto;
    
     
     
@@ -31,63 +32,109 @@ body{
 
 nav ol
 {
-
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
+    
+    
     
    
 }
-nav li
 
-{
-    margin-right: 65px;
-    
-}
 nav a
 {
     text-decoration: none ;
-    color-adjust:#0048FC ;
+    color: #0065FC ;
+    margin-right: 65px;
     
-
     
 }
-#logo_liste
+#logo_nav
 {
     display: flex;
     justify-content: space-between;
 }
-h2
-{
-    font-family:"raleway";
-    
-}
 
 
-#phrase,#champ_de_saisie
+
+#sous_titre
 {
-    margin-block: 20px;
+    position: relative;
+    bottom: 15px;
 }
-#conteneur,#information
+
+#formulaire
 {
+    block-size: 75px;
     
+}
+#conteneur /*filtres/logos/liens*/
+{
     display: flex;
-    position: relative;
-    top: 27px;
     
     
 }
-.liens
+.filtres
 {
-    
-    position: relative;
-    left: 70px 
-    
-    
+    position: absolute;
+    top: 230px;
 }
-.liens a 
+
+.liens/*logos/liens*/
 {
-    margin-right: 140px;
+    position: absolute;
+    left: 305px;
+}
+.liens i /*Logos filtres*/
+{
+    
+    border: 10px #DEEBFF solid;
+    border-radius: 20px;
+    color: #0065FC;
+    position: relative;
+    left: 30px;
+}
+
+
+
+#conteneur a
+{
     color: black;
+    border: 1px grey solid;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 30px;
+    align-items: flex-end;
+    
+  
+}
+#information 
+{
+    display: flex;
+    position:absolute;
+    top: 290px;
+    width: 1400px;
+    
+
+    
+   
+}
+.logo
+{
+  
+
+}
+.informatif
+{
+    position: relative;
+    left: 25px;
+    text-align: right;/*voir comment s'en servir*/
+   
+    
+}
+
+    
+    
+}
 
     
 }
@@ -98,54 +145,31 @@ nav i
     width: 40px;
     border: 1px grey solid;
     border-radius: 30px;
-    text-align: center;
+    text-align: ;
     padding: 2px;
    
     
    
     
 }
-nav strong a
+section
 {
-    position: relative;
-    top: 12px;
-    right: 10px;
-    border: 2px grey solid;
-    border-radius: 20px;
-    padding: 10px;
-    border-left: 1px;
-    padding-right: 50px;
-    
-    
-    
+    position: absolute;
+    top: auto;
+    top: 300px
+}
 
-}
-#information
-{
-    position: relative;
-    top: 50px;
-}
-.filtres 
-{
-    position: relative;
-    top: 11px;
-}
-p{
-    position: relative;
-    left: 20px;
-}
-#information i
-{
-    position: relative;
-    top: 17px;
-}
+
+
+
+
 
 
 #centre_page
 {
     
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
     justify-content: space-between;
     position: relative;
     top: 60px;
