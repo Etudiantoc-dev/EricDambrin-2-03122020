@@ -1,0 +1,216 @@
+@font-face {
+    font-family:"Raleway";
+    src: url("Raleway-Italic-VariableFont_wght.ttf") format("ttf"),
+         url("Raleway-variableFont_wght.ttf") format("ttf"),
+         url("Raleway-Regular.ttf") format("ttf")
+         url("Raleway-Bold.ttf") format("ttf")
+        
+
+}
+body{
+    font-family:"Raleway",Georgia, 'Times New Roman', Times, serif;
+    background-color:white ;
+    width: auto;
+    
+
+    
+    
+    
+}
+#mise_en_page
+{
+    
+    
+    margin: 44px 60px 1880px 50px ;
+   
+    
+    
+    
+}
+
+
+nav ol
+{
+
+    list-style-type: none;
+    display: flex;
+    
+   
+}
+nav li
+
+{
+    margin-right: 65px;
+    
+}
+nav a
+{
+    text-decoration: none ;
+    color-adjust:#0048FC ;
+    
+
+    
+}
+#logo_liste
+{
+    display: flex;
+    justify-content: space-between;
+}
+h2
+{
+    font-family:"raleway";
+    
+}
+
+
+#phrase,#champ_de_saisie
+{
+    margin-block: 20px;
+}
+#conteneur,#information
+{
+    
+    display: flex;
+    position: relative;
+    top: 27px;
+    
+    
+}
+.liens
+{
+    
+    position: relative;
+    left: 70px 
+    
+    
+}
+.liens a 
+{
+    margin-right: 140px;
+    color: black;
+
+    
+}
+nav i
+{
+   
+    block-size: 40px;
+    width: 40px;
+    border: 1px grey solid;
+    border-radius: 30px;
+    text-align: center;
+    padding: 2px;
+   
+    
+   
+    
+}
+nav strong a
+{
+    position: relative;
+    top: 12px;
+    right: 10px;
+    border: 2px grey solid;
+    border-radius: 20px;
+    padding: 10px;
+    border-left: 1px;
+    padding-right: 50px;
+    
+    
+    
+
+}
+#information
+{
+    position: relative;
+    top: 50px;
+}
+.filtres 
+{
+    position: relative;
+    top: 11px;
+}
+p{
+    position: relative;
+    left: 20px;
+}
+#information i
+{
+    position: relative;
+    top: 17px;
+}
+
+
+#centre_page
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    
+    
+    
+}
+.hm
+{
+    
+    background-color:#F2F2F2;
+    border: 3px #F2F2F2;
+    border-radius: 20px;
+    padding: 822px 510px;
+   
+    
+    
+}
+.pp
+{
+    
+    background-color:#F2F2F2;
+    border: 3px #F2F2F2;
+    border-radius: 20px;
+    padding: 210px;
+    position: relative;
+    right: 20px;
+    
+}
+section h1
+{
+    
+   position: relative;
+   bottom: 800px;
+   right: 450px;
+   
+    
+
+}
+.AC
+{
+    flex-direction: column;
+    position: relative;
+    bottom: 800px;
+    right: 450px;
+}
+.HP
+{
+    position: relative;
+    bottom: 800px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
