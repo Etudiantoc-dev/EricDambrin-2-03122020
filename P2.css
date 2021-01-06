@@ -1,0 +1,198 @@
+@font-face {
+    font-family:"Raleway";
+    src: url("Raleway-Italic-VariableFont_wght.ttf") format("ttf"),
+         url("Raleway-variableFont_wght.ttf") format("ttf"),
+         url("Raleway-Regular.ttf") format("ttf")
+         url("Raleway-Bold.ttf") format("ttf")
+        
+
+}
+body{
+    font-family:"Raleway",Georgia, 'Times New Roman', Times, serif;
+    background-color:white ;
+    width: auto;
+    
+
+    
+    
+    
+}
+#bloc_page
+{
+    
+    
+    width: 1400px;
+    margin: auto;
+   
+    
+    
+    
+}
+
+
+nav ol
+{
+    display: flex;
+    list-style-type: none;
+    
+    
+    
+   
+}
+
+nav a
+{
+    text-decoration: none ;
+    color: #0065FC ;
+    margin-right: 65px;
+    
+    
+}
+#logo_nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#sous_titre
+{
+    position: relative;
+    bottom: 15px;
+}
+
+#formulaire
+{
+    block-size: 75px;
+    
+}
+#conteneur /*filtres/logos/liens*/
+{
+    display: flex;
+    
+    
+}
+.filtres
+{
+    position: absolute;
+    top: 230px;
+}
+
+.liens/*logos/liens*/
+{
+    position: absolute;
+    left: 305px;
+}
+.liens i /*Que les logos des liens*/
+{
+    
+    border: 10px #DEEBFF solid;
+    border-radius: 20px;
+    color: #0065FC;
+    position: relative;
+    left: 30px;
+}
+
+
+
+.liens a/*que les liens sans les logos*/
+{
+    color: black;
+    border: 1px grey solid;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 30px;
+    align-items: flex-end;
+    
+  
+}
+#information 
+{
+    display: flex;
+    position:absolute;
+    top: 290px;
+    width: 1400px;
+    
+}
+
+.informatif
+{
+    position: relative;
+    left: 25px;
+    text-align: right;/*voir comment s'en servir*/
+   
+    
+}
+
+
+section
+{
+    
+    position: absolute;
+    top: 300px
+}
+
+
+#centre_page
+{
+    
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 200px ;
+    top: 60px;
+    width: 1340px;
+    border: 3px black solid;
+    height: 620px;
+    
+    
+    
+    
+}
+.hm
+{
+    display: flex ;
+    background-color:#F2F2F2;
+    border: 3px #F2F2F2;
+    border-radius: 20px;
+    width: 910px;
+    
+   
+    
+    
+}
+.pp
+{
+    
+    background-color: #F2F2F2;
+    border: 5px #F2F2F2;
+    border-radius: 20px;
+    padding: 220px;
+   
+   
+}
+    
+  
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
