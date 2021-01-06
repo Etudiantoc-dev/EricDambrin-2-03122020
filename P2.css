@@ -84,7 +84,7 @@ nav a
     position: absolute;
     left: 305px;
 }
-.liens i /*Logos filtres*/
+.liens i /*Que les logos des liens*/
 {
     
     border: 10px #DEEBFF solid;
@@ -96,7 +96,7 @@ nav a
 
 
 
-#conteneur a
+.liens a/*que les liens sans les logos*/
 {
     color: black;
     border: 1px grey solid;
@@ -114,9 +114,6 @@ nav a
     top: 290px;
     width: 1400px;
     
-
-    
-   
 }
 
 .informatif
@@ -129,17 +126,6 @@ nav a
 }
 
 
-}
-nav i
-{
-   
-    block-size: 40px;
-    width: 40px;
-    border: 1px grey solid;
-    border-radius: 30px;
-    padding: 2px;
-   
-}
 section
 {
     display: flex;
@@ -187,24 +173,15 @@ section
     padding: 220px;
    
    
-    
 }
-section h1
-{
     
   
     
 
-}
-.AC
-{
-    
-}
-.HP
-{
+
     
     
-}
+
 
 
 
