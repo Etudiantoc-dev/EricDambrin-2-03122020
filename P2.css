@@ -176,7 +176,10 @@ section
     margin-right: 40px;
     width: 100%;
     height: 622px;
-    justify-content: space-between;
+    justify-content:space-between;
+   
+    
+   
     
 }
 address
@@ -186,6 +189,10 @@ address
     height: 622px;
     background-color: chartreuse;
     border-radius: 15px;
+    align-items: center;
+    padding-bottom: 50px;
+    
+    
     
     
 }
@@ -195,10 +202,47 @@ aside
     height: 622px;
     background-color: coral;
     border-radius: 15px;
+    padding-bottom: 50px;
     
     
     
 }
+#hm
+{
+    margin-left: 86px;
+    margin-top: 40px;
+}
+#hotel
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+#hotel_2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.lien
+{
+    margin-left: 80px;
+    margin-top: 40px;
+    
+    
+    
+}
+.lien a
+{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+
+}
+
+
+
   
     
 
