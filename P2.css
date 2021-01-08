@@ -21,6 +21,7 @@ nav ol
     
     
     
+    
    
 }
 
@@ -31,6 +32,7 @@ nav a
     color: #0065FC ;
     margin-right: 15px;
     margin-left: 50px;
+    
     
     
 }
@@ -187,7 +189,7 @@ address
     
     width: 76%;
     height: 622px;
-    background-color: chartreuse;
+    background-color: #F2F2F2;
     border-radius: 15px;
     align-items: center;
     padding-bottom: 50px;
@@ -200,7 +202,7 @@ aside
 {
     width: 22%;
     height: 622px;
-    background-color: coral;
+    background-color: #F2F2F2;
     border-radius: 15px;
     padding-bottom: 50px;
     
@@ -216,7 +218,8 @@ aside
 {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 30px;
+    
     
 }
 #hotel_2
@@ -240,6 +243,83 @@ aside
     color: black;
 
 }
+.acannebiere, .hport, .hmouettes, .hmer, .alepanier, .hchezamina
+{
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5 5 5 5;
+    box-shadow: 2px 2px #F2F2F2
+
+    
+}
+
+#hotel i
+{
+    color: #0065FC;
+    
+}
+#hotel_2 i
+{
+    color: #0065FC;
+
+}
+#le_soleil_du_matin
+{
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    
+    
+}
+#le_soleil_du_matin
+{
+    display: flex;
+}
+#au_coeur_de_l_eau
+{
+    display: flex;
+}
+#tout_bleu_et_blanc
+{
+    display: flex;
+}
+article
+{
+    width: 100%;
+    height: 608px;
+    border:1px black solid;
+   
+}
+#titre
+{
+    font-size: x-large;
+    margin-top: 50px;
+   
+}
+
+
+#activités_1
+{
+    width: 100%;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#activités_2
+{
+    display: flex;
+    justify-content: space-around;
+}
+.parc_longchamp
+{
+    margin-left: 900px;
+    margin-top: 0px;
+}
+
+
+
 
 
 
