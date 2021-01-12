@@ -7,10 +7,12 @@
         
 
 }
-body{
+body
+{
     font-family:"Raleway",Georgia, 'Times New Roman', Times, serif;
     background-color:white ;
     margin: 40 50 0 50;
+    
     
 }
 
@@ -18,16 +20,19 @@ nav ul
 {
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
     
 }
 
 
 nav a
 {
+    
     text-decoration: none ;
     color: #0065FC ;
     margin-right: 15px;
     margin-left: 50px;
+   
     
     
     
@@ -101,16 +106,21 @@ nav a span
     
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
+    
     
 }
 .filtres
 {
   margin-top: 8px;
+  
 }
 
 .liens/*logos/liens*/
 {
     margin-left: 30px;
+    
+    
 }
 .liens i /*Que les logos des liens*/
 {
@@ -121,6 +131,7 @@ nav a span
     background-color:#DEEBFF;
     position: relative;
     left: 80px;
+    
     
     
     
@@ -192,23 +203,14 @@ address
     border-radius: 15px;
     
     padding-bottom: 40px;
+    flex-wrap: wrap;
     
     
     
     
 }
-aside
-{
-    width: 22%;
-    height: 622px;
-    background-color: #F2F2F2;
-    border-radius: 15px;
-    padding-bottom: 40px;
-    
-    
-    
-}
-#hm
+
+#hébergement_à_Marseille
 {
     margin-left: 86px;
     margin-top: 40px;
@@ -220,6 +222,12 @@ aside
     margin-top: 30px;
     
     
+    
+}
+section a, article a
+{
+    text-decoration: none;
+    color: black;
 }
 #hotel_2
 {
@@ -255,23 +263,28 @@ aside
     
 }
 
-#hotel i
+section i
 {
     color: #0065FC;
     background-color: #F2F2F2;
     
 }
-
-#hotel_2 i
+aside
 {
-    color: #0065FC;
-
+    width: 22%;
+    height: 622px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding-bottom: 40px;
 }
-#le_soleil_du_matin
+
+
+#hotels_lpp
 {
     border: 1px white solid;
     background-color: white;
     border-radius: 15px;
+    
     
     
 }
@@ -288,15 +301,9 @@ aside
     display: flex;
 }
 
- #article
- {
-     width: 100%;
-    
-     
- }
 
 
-#titre
+#titre_activités
 {
     font-size: x-large;
     margin-top: 100px;
@@ -343,6 +350,9 @@ aside
 }
 footer
 {
+    margin: auto;
+    
+   
     height: 216px;
     background-color: #F2F2F2;
     padding-top: 140px;
@@ -358,21 +368,57 @@ footer
 }
 .a_propos
 {
-    position: absolute;
-    left: 50px;
+    margin-right: auto;
 }
 .hebergements
 {
-    position: absolute;
-    left: 700px;
+    margin-right: auto;
 }
 .assistance
 {
-    position:absolute;
-    left: 1350px;
+    margin-right: auto;
 }
+@media all and (max-device-width:480px)
+{
+    body 
+    {
+       width: auto;
+       margin: 15 15 15 15;
+       
+    }
+    nav ul
+    {
+        width: auto;
+        flex-direction: 
+        margin-top: 60px;
+        
+    }
+    section
+    {
+       
+    }
+   
+        
+    
+    #titre_principal
+    {
+        font-size: 20px ;
+        width: 90%
+    }
+    #sous_titre
+    {
+        font-size: 14px;
+        
+    }
+    
+  
+    
+   
+   
+    
+    
 
-
+}
 
  
  
