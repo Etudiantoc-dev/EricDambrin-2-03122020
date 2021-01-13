@@ -21,6 +21,8 @@ body
 
 }
 
+
+
 nav ul
 {
     display: flex;
@@ -111,7 +113,8 @@ nav a span
     
     display: flex;
     margin-top: 20px;
-    flex-wrap: wrap;
+    
+    
     
     
 }
@@ -123,7 +126,7 @@ nav a span
 
 .liens/*logos/liens*/
 {
-    margin-left: 30px;
+  
     
     
 }
@@ -135,7 +138,9 @@ nav a span
     color: #0065FC;
     background-color:#DEEBFF;
     position: relative;
-    left: 80px;
+    left: 82px;
+    
+    
     
     
     
@@ -208,7 +213,7 @@ address
     border-radius: 15px;
     
     padding-bottom: 40px;
-    flex-wrap: wrap;
+    
     
     
     
@@ -272,43 +277,100 @@ section a, article a
     
 }
 
-section i
+ #hotel i,#hotel_2 i
 {
     
     color:  blue
     
     
 }
+#hotels_lpp i
+{
+    margin-top: 40px;
+    color: blue;
+}
 aside
 {
+
     width: 22%;
     height: 622px;
     background-color: #F2F2F2;
     border-radius: 15px;
     padding-bottom: 40px;
+    
 }
-
-
-#hotels_lpp
+#chartline 
 {
-    border: 1px white solid;
-    background-color: white;
-    border-radius: 15px;
-    
-    
+   position: relative;
+   bottom: 13px;
+    margin-left: 320px;
+    color: black;
     
 }
+#titre_lpp
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 30px;
+    font-size: 1.2em;
+    
+   
+}
+ span
+{
+    font-family:"raleway-regular"
+}
+
+
+
 #le_soleil_du_matin
 {
     display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 30px;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5 40 5 0;
+    box-shadow: 2px 2px #F2F2F2;
+    
 }
 #au_coeur_de_l_eau
 {
     display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+    justify-content: space-around;
+    padding-right: 55px;
+    
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px #F2F2F2;
+    
+    
+    
+    
+    
 }
+
 #tout_bleu_et_blanc
 {
+    
     display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+    padding-right: 65px;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px #F2F2F2;
 }
 
 
@@ -321,43 +383,58 @@ aside
 }
 #activités
 {
+    width: 100%;
+    margin: auto;
     height: 610px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    
    
 }
+
 .ile 
 {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .parc
 {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .fort,.ile,.notre,.parc,.photo_1_longue,.photo_2_longue
 {
-    border: 5px white solid;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 1px #d8d2d2;
     
     
+    border-radius: 25px;
+    box-shadow: 0px 2px #d8d2d2;
+    margin-right: auto;
+    
+    
+    
+}
+
+   
+
+.photo_2_longue
+{
+    margin-right: 200px;
+}
+.ile,.fort
+{
+    margin-right: 200px;
 }
 .photo_1_longue,.photo_2_longue
 {
-    margin-block-end:auto;
+    
     margin-bottom: 160px;
 }
-.fort
-{
-    padding-bottom: 2px;
-    margin-top: auto;
-}
+
 #activités p
 {
     margin-left: 20px;
+    padding-bottom: 20px;
 }
+
 footer
 {
     
@@ -368,6 +445,14 @@ footer
     justify-content: space-around;
     
 }
+ 
+p
+{
+    font-family: "raleway-regular"
+
+}
+    
+
 ::placeholder
 {
     font-size: 20px;
