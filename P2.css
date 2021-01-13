@@ -79,11 +79,6 @@ nav a
     top: 230px;
 }
 
-.liens/*logos/liens*/
-{
-    position: absolute;
-    left: 305px;
-}
 .liens i /*Que les logos des liens*/
 {
     
@@ -166,9 +161,63 @@ section
 {
     
     background-color: #F2F2F2;
-    border: 5px #F2F2F2;
-    border-radius: 20px;
-    padding: 220px;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+ 
+p
+{
+    font-family: "raleway-regular"
+
+}
+    
+
+::placeholder
+{
+    font-size: 20px;
+    color: black;
+    
+}
+.a_propos
+{
+    margin-right: auto;
+    margin-left: 50px;
+}
+.hebergements
+{
+    margin-right: auto;
+}
+.assistance
+{
+    margin-right: auto;
+}
+@media all and (max-device-width:480px)
+{
+    body 
+    {
+       width: auto;
+       margin: 15 15 15 15;
+       
+    }
+  
+   
+        
+    
+    #titre_principal
+    {
+        font-size: 20px ;
+        width: 90%
+    }
+    #sous_titre
+    {
+        font-size: 14px;
+        
+    }
+    
+  
+    
    
    
 }
