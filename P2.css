@@ -11,9 +11,14 @@ body
 {
     font-family:"Raleway",Georgia, 'Times New Roman', Times, serif;
     background-color:white ;
-    margin: 40 50 0 50;
+   
     
     
+}
+#bloc_page
+{
+    margin: 50 50 0 50;
+
 }
 
 nav ul
@@ -215,6 +220,10 @@ address
     margin-left: 86px;
     margin-top: 40px;
 }
+#hébergement_à_Marseille i 
+{
+    border-color: black;
+}
 #hotel
 {
     display: flex;
@@ -265,8 +274,9 @@ section a, article a
 
 section i
 {
-    color: #0065FC;
-    background-color: #F2F2F2;
+    
+    color:  blue
+    
     
 }
 aside
@@ -350,9 +360,7 @@ aside
 }
 footer
 {
-    margin: auto;
     
-   
     height: 216px;
     background-color: #F2F2F2;
     padding-top: 140px;
@@ -369,6 +377,7 @@ footer
 .a_propos
 {
     margin-right: auto;
+    margin-left: 50px;
 }
 .hebergements
 {
