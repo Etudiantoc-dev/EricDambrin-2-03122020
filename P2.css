@@ -97,11 +97,20 @@ nav a span
 }
 #formulaire input 
 {
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 20px;
+    padding-right: 15px;
     border: 1px #F2F2F2 solid ;
-    height: 42px;
+    height: 50px;
     color: white;
+    
+}
+.submit
+{
+    background-color: #0065FC;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    
     
 }
 
@@ -201,6 +210,7 @@ section
 }
 address
 {
+    
     
     width: 76%;
     height: 622px;
