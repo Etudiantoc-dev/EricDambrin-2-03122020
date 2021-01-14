@@ -7,86 +7,139 @@
         
 
 }
-body{
+body
+{
     font-family:"Raleway",Georgia, 'Times New Roman', Times, serif;
     background-color:white ;
-    width: auto;
-    
-
-    
+   
     
     
 }
 #bloc_page
 {
-    
-    
-    width: 1400px;
-    margin: auto;
-   
-    
-    
-    
+    margin: 50 50 0 50;
+
 }
 
 
-nav ol
+
+nav ul
 {
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
     
-    
-    
-   
 }
+
 
 nav a
 {
+    
     text-decoration: none ;
     color: #0065FC ;
-    margin-right: 65px;
+    margin-right: 15px;
+    margin-left: 50px;
+   
+    
     
     
 }
+nav a span
+{
+    color: black;
+}
+
 #logo_nav
 {
     display: flex;
     justify-content: space-between;
-}
-
-
-
-#sous_titre
-{
-    position: relative;
-    bottom: 15px;
-}
-
-#formulaire
-{
-    block-size: 75px;
     
 }
+#titre_principal
+{
+    font-size: 25px;
+    margin-top: 25px;
+}
+#sous_titre
+{
+    font-size: 18px;
+    margin-top: 5px;
+}
+#formulaire
+{
+    display:flex;
+    margin-top: 12px;
+    
+    
+    
+}
+
+
+
+#formulaire i
+{
+    
+    font-size:16px;
+    margin-right: 4px;
+    border:10px #F2F2F2 solid;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 3px;
+    padding-right: 5px;
+    padding-left: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: relative;
+    left: 8px;
+    bottom: 2px;
+    background-color: #F2F2F2
+    
+}
+#formulaire input 
+{
+    font-size: 25px;
+    padding-left: 20px;
+    border: 1px #F2F2F2 solid ;
+    height: 42px;
+    color: white;
+    
+}
+
+
+
+
 #conteneur /*filtres/logos/liens*/
 {
+    
     display: flex;
+    margin-top: 20px;
+    
+    
     
     
 }
 .filtres
 {
-    position: absolute;
-    top: 230px;
+  margin-top: 8px;
+  
 }
+
 
 .liens i /*Que les logos des liens*/
 {
     
-    border: 10px #DEEBFF solid;
-    border-radius: 20px;
+    border: 10px hsl(216, 100%, 94%) solid;
+    border-radius: 15px;
     color: #0065FC;
+    background-color:#DEEBFF;
     position: relative;
-    left: 30px;
+    left: 82px;
+    
+    
+    
+    
+    
+    
 }
 
 
@@ -98,68 +151,289 @@ nav a
     border-radius: 20px;
     padding: 7px;
     padding-left: 30px;
-    align-items: flex-end;
+    margin-right: 145px;
     
   
+}
+.liens a:hover
+{
+    text-decoration:underline;
+    color:rosybrown;
 }
 #information 
 {
     display: flex;
-    position:absolute;
-    top: 290px;
-    width: 1400px;
+    margin-top: 30px;
+    
+    
     
 }
 
 .informatif
 {
-    position: relative;
-    left: 25px;
-    text-align: right;/*voir comment s'en servir*/
-   
     
+   margin-left: 10px;
+   margin-top: 1px;
+    
+}
+.logo
+{
+    border:1px#F2F2F2 solid;
+    border-radius: 20px;
+    background-color: blue;
+    color:white;
+    margin-top: 2px;
 }
 
 
 section
 {
-    
-    position: absolute;
-    top: 300px
-}
-
-
-#centre_page
-{
-    
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 200px ;
-    top: 60px;
-    width: 1340px;
-    border: 3px black solid;
-    height: 620px;
-    
-    
-    
-    
-}
-.hm
-{
-    display: flex ;
-    background-color:#F2F2F2;
-    border: 3px #F2F2F2;
-    border-radius: 20px;
-    width: 910px;
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 100%;
+    height: 622px;
+    justify-content:space-between;
+   
     
    
     
-    
 }
-.pp
+address
 {
     
+    width: 76%;
+    height: 622px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    
+    padding-bottom: 40px;
+    
+    
+    
+    
+    
+}
+
+#hébergement_à_Marseille
+{
+    margin-left: 86px;
+    margin-top: 40px;
+}
+#hébergement_à_Marseille i 
+{
+    border-color: black;
+}
+#hotel
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+    
+    
+}
+section a, article a
+{
+    text-decoration: none;
+    color: black;
+}
+#hotel_2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.lien
+{
+    margin-left: 80px;
+    margin-top: 40px;
+    
+    
+    
+}
+.lien a
+{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+
+}
+.acannebiere, .hport, .hmouettes, .hmer, .alepanier, .hchezamina
+{
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5 5 5 5;
+    box-shadow: 2px 2px #F2F2F2;
+    
+    
+
+    
+}
+
+ #hotel i,#hotel_2 i
+{
+    
+    color:  blue
+    
+    
+}
+#hotels_lpp i
+{
+    margin-top: 40px;
+    color: blue;
+}
+aside
+{
+
+    width: 22%;
+    height: 622px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    
+}
+#chartline 
+{
+   position: relative;
+   bottom: 13px;
+    margin-left: 320px;
+    color: black;
+    
+}
+#titre_lpp
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 30px;
+    font-size: 1.2em;
+    
+   
+}
+ span
+{
+    font-family:"raleway-regular"
+}
+
+
+
+#le_soleil_du_matin
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 30px;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5 40 5 0;
+    box-shadow: 2px 2px #F2F2F2;
+    
+}
+#au_coeur_de_l_eau
+{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+    justify-content: space-around;
+    padding-right: 55px;
+    
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px #F2F2F2;
+    
+    
+    
+    
+    
+}
+
+#tout_bleu_et_blanc
+{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+    padding-right: 65px;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px #F2F2F2;
+}
+
+
+
+#titre_activités
+{
+    font-size: x-large;
+    margin-top: 100px;
+   
+}
+#activités
+{
+    width: 100%;
+    margin: auto;
+    height: 610px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+   
+}
+
+.ile 
+{
+    margin-top: 20px;
+}
+.parc
+{
+    margin-top: 20px;
+}
+.fort,.ile,.notre,.parc,.photo_1_longue,.photo_2_longue
+{
+    
+    
+    border-radius: 25px;
+    box-shadow: 0px 2px #d8d2d2;
+    margin-right: auto;
+    
+    
+    
+}
+
+   
+
+.photo_2_longue
+{
+    margin-right: 200px;
+}
+.ile,.fort
+{
+    margin-right: 200px;
+}
+.photo_1_longue,.photo_2_longue
+{
+    
+    margin-bottom: 160px;
+}
+
+#activités p
+{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+footer
+{
+    
+    height: 216px;
     background-color: #F2F2F2;
     padding-top: 140px;
     display: flex;
@@ -220,8 +494,39 @@ p
     
    
    
-}
     
+    
+
+}
+
+ 
+ 
+
+
+
+
+
+
+
+   
+    
+
+     
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
   
     
 
