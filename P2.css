@@ -92,7 +92,9 @@ nav a span
     position: relative;
     left: 8px;
     bottom: 2px;
-    background-color: #F2F2F2
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    
     
 }
 #formulaire input 
@@ -166,7 +168,7 @@ nav a span
 }
 .liens a:hover
 {
-    text-decoration:underline;
+    
     color:rosybrown;
 }
 #information 
@@ -208,6 +210,7 @@ section
    
     
 }
+
 address
 {
     
@@ -216,7 +219,6 @@ address
     height: 622px;
     background-color: #F2F2F2;
     border-radius: 15px;
-    
     padding-bottom: 40px;
     
     
@@ -224,6 +226,13 @@ address
     
     
 }
+address img,article img
+{
+   
+    border-radius: 17px;
+
+}
+
 
 #hébergement_à_Marseille
 {
@@ -282,17 +291,26 @@ section a, article a
     
 }
 
- #hotel i,#hotel_2 i
+ #stars_blue
 {
     
     color:  blue
     
     
 }
+#stars_grey
+{
+    color: grey;
+    
+}
+#stars
+{
+    display: flex;
+}
 #hotels_lpp i
 {
     margin-top: 40px;
-    color: blue;
+    
 }
 aside
 {
@@ -304,20 +322,23 @@ aside
     padding-bottom: 40px;
     
 }
-#chartline 
+.image img
 {
-   position: relative;
-   bottom: 13px;
-    margin-left: 320px;
-    color: black;
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
+}
+#titre_chartline
+{
     
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+     margin-top: 20px;
 }
 #titre_lpp
 {
-    margin-top: 20px;
-    margin-left: 30px;
-    position: relative;
-    top: 30px;
+   
+   
     font-size: 1.2em;
     
    
