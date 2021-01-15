@@ -312,6 +312,9 @@ section a, article a
     margin-top: 40px;
     
 }
+
+
+
 aside
 {
 
@@ -347,37 +350,43 @@ aside
 {
     font-family:"raleway-regular"
 }
+#hotels_lpp
+{
+   
+    
+}
 
 
 
 #le_soleil_du_matin
 {
     display: flex;
-    justify-content: space-around;
     margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 30px;
+    margin-inline: 30px;
+    justify-content: space-around;
     border: 1px white solid;
     background-color: white;
-    border-radius: 15px;
-    padding: 5 40 5 0;
+    border-radius: 25px;
+    padding: 5 50 5 0;
     box-shadow: 2px 2px #F2F2F2;
+    align-items: center;
+  
     
 }
 #au_coeur_de_l_eau
 {
+    
     display: flex;
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 30px;
     justify-content: space-around;
-    padding-right: 55px;
+    margin-top: 30px;
+    margin-inline: 30px;
     
     border: 1px white solid;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 25px;
+    padding: 5 50 5 0;
     box-shadow: 2px 2px #F2F2F2;
-    
+    align-items: center;
     
     
     
@@ -389,14 +398,14 @@ aside
     
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 30px;
-    padding-right: 65px;
+    margin-top: 30px;
+    margin-inline: 30px;
     border: 1px white solid;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 25px;
+    padding: 5 50 5 0;
     box-shadow: 2px 2px #F2F2F2;
+    align-items: center;
 }
 
 
