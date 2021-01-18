@@ -458,7 +458,7 @@ aside
 }
 .fort,.ile,.notre_dame,.parc_l
 {
-    padding-bottom: 0.5px;
+    padding-bottom: 1px;
 }
 .notre_dame
 {
@@ -466,7 +466,7 @@ aside
 }
 .port,.parc_n
 {
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 }
 h4
 {
