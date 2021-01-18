@@ -81,7 +81,6 @@ nav a span
 {
     
     font-size:18px;
-    margin-right: 4px;
     border:12px #F2F2F2 solid;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -90,11 +89,8 @@ nav a span
     padding-left: 6px;
     padding-top: 3px;
     padding-bottom: 6px;
-    position: relative;
-    left: 8px;
-    bottom: 2px;
     background-color: #F2F2F2;
-    margin-top: 20px;
+   
     
     
 }
