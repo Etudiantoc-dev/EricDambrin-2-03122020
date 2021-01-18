@@ -511,6 +511,11 @@ p
 {
     font-family:"raleway-regular"
 }
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
 
 
 @media all and (max-device-width:480px)
