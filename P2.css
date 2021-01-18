@@ -482,14 +482,12 @@ footer
     padding-top: 80px;
     display: flex;
     justify-content: space-around;
-    font-weight: normal;
+  
 
     
 }
  
     
-
-
 .a_propos
 {
     margin-right: auto;
@@ -503,10 +501,11 @@ footer
 {
     margin-right: auto;
 }
-footer p
+p
 {
-    font-weight: lighter;
+    font-family:"raleway-regular"
 }
+
 
 @media all and (max-device-width:480px)
 {
