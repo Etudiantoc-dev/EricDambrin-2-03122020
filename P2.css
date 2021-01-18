@@ -57,11 +57,14 @@ nav a span
 }
 #titre_principal
 {
-   
+   font-size: 1.5em;
+   margin-top: 30px;
 }
 #sous_titre
 {
-    
+    font-family: "raleway-regular";
+    font-size: larger;
+    font-weight: lighter;
 }
 #formulaire
 {
