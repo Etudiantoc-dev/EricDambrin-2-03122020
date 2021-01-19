@@ -530,28 +530,68 @@ footer a
 }
 
 
-@media all and (max-device-width:480px)
+@media all and (max-width:414px)
 {
     body 
     {
-       width: auto;
-       margin: 15 15 15 15;
+       width: 414px;
+      
+       
        
     }
+   section
+   {
+       flex-direction: column;
+   }
+
+   address, aside
+   {
+        
+      width: 400px; 
+      margin-bottom: 15px;
+      border-radius: 0px;
+   }
+   #hébergement_à_Marseille
+   {
+       font-size: small;
+       margin-left: 60px;
+       
+   }
+   #hotel, #hotel_2
+   {
+    flex-direction: column;
+    
+    
+
+   }
+   .acannebiere, .hport, .hmouettes, .hmer, .alepanier, .hchezamina
+   {
+       margin: auto;
+   }
+   #logo-nav
+   {
+    
+        width: auto;
+   }
+   #logo_nav ul 
+   {
+      
+      flex-direction: column-reverse;
+      
+   }
   
+   
+   #conteneur nav a
+   {
+       display: flex
+   }
+       
+   
+   
    
         
     
-    #titre_principal
-    {
-        font-size: 20px ;
-        width: 90%
-    }
-    #sous_titre
-    {
-        font-size: 14px;
-        
-    }
+    
     
   
     
