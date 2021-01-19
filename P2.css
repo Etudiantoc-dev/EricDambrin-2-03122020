@@ -17,7 +17,7 @@ body
 }
 #bloc_page
 {
-    margin: 50 50 0 50;
+    margin: 0 50 0 50;
 
 }
 
@@ -36,13 +36,17 @@ nav a
 {
     
     text-decoration: none ;
-    color: #0065FC ;
+    color: black ;
     margin-right: 15px;
     margin-left: 50px;
    
     
     
     
+}
+nav a:hover
+{
+    color: #0065FC;
 }
 nav a span
 {
@@ -99,16 +103,24 @@ nav a span
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    border:1px #F2F2F2 solid;
+    border-top:1px #F2F2F2 solid;
+    border-bottom:  #F2F2F2 solid;
+    border-right: none;
+    border-left: none;
     padding-top: 3px;
     height: 50px;
-    color: white;
+    
+    
     
 }
+
+
+
 ::placeholder
 {
     font-size: 20px;
-    color: black;
+    
+    
     
 }
 .submit
@@ -116,6 +128,7 @@ nav a span
     background-color: #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    color: white;
     
     
     
@@ -137,6 +150,7 @@ nav a span
 .filtres
 {
   margin-top: 8px;
+  font-weight: bold;
   
 }
 
@@ -167,7 +181,7 @@ nav a span
     border-radius: 20px;
     padding: 7px;
     padding-left: 30px;
-    margin-right: 145px;
+    
     
   
 }
@@ -309,7 +323,7 @@ section a, article a
 }
 #stars_grey
 {
-    color: grey;
+    color: #c9c6c6;
     
 }
 #stars
