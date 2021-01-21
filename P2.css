@@ -17,7 +17,7 @@ body
 }
 #bloc_page
 {
-    margin: 50 50 0 50;
+    margin: 0 50 0 50;
 
 }
 
@@ -36,13 +36,17 @@ nav a
 {
     
     text-decoration: none ;
-    color: #0065FC ;
+    color: black ;
     margin-right: 15px;
     margin-left: 50px;
    
     
     
     
+}
+nav a:hover
+{
+    color: #0065FC;
 }
 nav a span
 {
@@ -99,16 +103,24 @@ nav a span
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    border:1px #F2F2F2 solid;
+    border-top:1px #F2F2F2 solid;
+    border-bottom:  #F2F2F2 solid;
+    border-right: none;
+    border-left: none;
     padding-top: 3px;
     height: 50px;
-    color: white;
+    
+    
     
 }
+
+
+
 ::placeholder
 {
     font-size: 20px;
-    color: black;
+    
+    
     
 }
 .submit
@@ -116,6 +128,7 @@ nav a span
     background-color: #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    color: white;
     
     
     
@@ -137,6 +150,7 @@ nav a span
 .filtres
 {
   margin-top: 8px;
+  font-weight: bold;
   
 }
 
@@ -167,10 +181,11 @@ nav a span
     border-radius: 20px;
     padding: 7px;
     padding-left: 30px;
-    margin-right: 145px;
+    
     
   
 }
+
 .liens a:hover
 {
     
@@ -202,6 +217,7 @@ nav a span
     background-color:#0065FC;
     color:white;
     font-size: 20px;
+    height: 20px;
 }
 
 
@@ -309,7 +325,7 @@ section a, article a
 }
 #stars_grey
 {
-    color: grey;
+    color: #c9c6c6;
     
 }
 #stars
@@ -514,30 +530,331 @@ footer a
     text-decoration: none;
     color: black;
 }
+#loupe
+{
+    display: none;
+}
+#conteneur em 
+{
+    font-style: normal ;
+}
+#conteneur strong
+{
+    font-weight: normal;
+}
+
 
 
 @media all and (max-device-width:480px)
+
 {
-    body 
+    #bloc_page
     {
-       width: auto;
-       margin: 15 15 15 15;
+       width: 414px;
+       margin: auto;
        
     }
   
+   #logo_nav ul 
+   {
+      
+      flex-direction: column-reverse;
+      
+   }
+   .hebergement
+   {
+       position: relative;
+       right: 170px;
+       top: 30px;
+       
+   }
+   .activite
+   {
+       position: relative;
+       top: 48px;
+       left: 35px;
+   }
+   .sinscrire
+   {
+       position: relative;
+       top:23px;
+       left: 45px;
+       
+   }
+  
+
+  /* comment placer activités et hébergment sans position relative??*/
+  
+    
+  #titre_principal
+   {
+       font-size: 22px;
+       margin-bottom: 10px;
+   }
+   .submit
+   {
+       display: none;
+   }
+    #loupe
+    {
+        display: block;
+        color: white;
+    }
+    #loupe i 
+    {
+        border:12px #0065FC solid;
+        border-radius: 15px;
+        background-color: #0065FC;
+        
+        
+    }
+    form 
+    {
+        display: flex;
+        margin-top: 15px;
+    }
+    #formulaire i
+    {
+        margin: auto;
+    }
+    ::placeholder
+    {
+        color: black;
+    }
+    #conteneur 
+   {
+       
+       flex-direction: column;
+       margin-top: auto;
+       font-weight: bolder;
+
+    }
+   
+   
+   
+   #conteneur nav a
+   {
+       display: flex;
+       flex-direction: column;
+       margin-right: auto;
+       border-left: 0px;
+       border-top-left-radius: 0px;
+       border-bottom-left-radius: 0px;
+       padding-left: 15px;
+       padding-right: 15px;
+    
+       
+      
+       
+   }
+   #conteneur span a 
+   {
+    position: relative;
+    right: 60px;
+    font-size: large;
+    
+    }
+   #conteneur span 
+   {
+       display: flex;
+       margin-top: 12px;
+   }
+   .liens i 
+   {
+     position: relative;
+     left: 0px;
+     
+   }
+   .liens em 
+   {
+       font-style: normal ;
+       
+       
+   }
+   .liens em i 
+   {
+    margin-top: 12px;
+   }
+   #conteneur em a 
+   {
+      position: relative;
+      bottom: 35px;
+      right: 35px;
+      padding-left: 20px;
+      margin-left: 60px;
+      margin-right: 75px;/*comment agir seulement sur le contour de romantique??*/
+
+   }
+   .liens strong
+   {
+      position: relative;
+      bottom: 35px;
+      
+   }
+   #conteneur strong
+   {
+       font-weight: bold;
+   }
+   #information
+  {
+      font-size: medium;
+      margin: auto;
+      position: relative;
+      bottom: 40px;
+  }
+  section 
+ {
+     
+    flex-direction: column;
+    margin-top: auto;
+    position: relative;
+    right: 20px;
+    
+   
+    
+ }
+ address
+ {
+     width: 414px;
+     height: 500%;
+     
+     
+    
+ }
+ 
+ #hotel,#hotel_2
+  {
+      
+      flex-direction: column;
+      padding-right: 5px;
+      padding-left: 20px;
+      position: relative;
+      right: 10px;
+  }
+  .acannebiere, .hport, .hmouettes, .hmer, .alepanier, .hchezamina
+{
+    margin-bottom: 20px;
+    
+}
+#hébergement_à_Marseille
+{
+   margin-left:20px;
+    font-size: medium;
+}
+.lien
+{
+    
+    margin: auto;
+    margin-left: 25px;
+}
+address img 
+{
+    width: 380px;
+    height: 180px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+ aside
+ {
+     
+     width: 414px;
+    border-radius: 0px;
+    background-color: white;
+    /*comment grossir l'ensemble photos+descrptif de manière proportionnel?*/
+ }
+
+  
+  article
+  {
+    width: 414px;
+    margin-top:435% ;
+  }
+  #activités
+  {
+    flex-direction: column;
+    
+    
+  }
+  #activités img 
+  {
+      width: 380px;
+      height: 180px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+     
+  }
+  .fort,.ile,.parc_n,.parc_l,.notre_dame,.port
+  {
+      margin-right: 22px;
+      padding-left: 10px;
+      padding-bottom: 10p;
+      position: relative;
+      margin-bottom: 20px;
+      
+     
+
+  }
+  .ile,.parc_l
+  {
+      margin-top: 0px;
+  }
+  #titre_activités
+  {
+      margin-left: 15px;
+  }
+
+  footer 
+  {
+      width: 414px;
+      height: 22%;
+      margin: auto;
+      flex-direction: column;
+      margin-top:115% ;
+      
+      
+  }
+  .a_propos
+  {
+      margin-left: 0%;
+      
+      
+      
+  }
+  .a_propos,.hebergements,.assistance
+  {
+      margin-left: 18px;
+      
+      
+      
+      
+  }
+  .assistance
+  {
+      margin-bottom: 120px;
+  }
+
+ 
+
+
+   
+
+   
+       
+      
+      
+       
+       
+    
+   
+   
+   
+
+   
    
         
     
-    #titre_principal
-    {
-        font-size: 20px ;
-        width: 90%
-    }
-    #sous_titre
-    {
-        font-size: 14px;
-        
-    }
+    
     
   
     
