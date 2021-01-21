@@ -185,6 +185,7 @@ nav a span
     
   
 }
+
 .liens a:hover
 {
     
@@ -547,7 +548,7 @@ footer a
 @media all and (max-device-width:480px)
 
 {
-    body 
+    #bloc_page
     {
        width: 414px;
        margin: auto;
@@ -560,7 +561,29 @@ footer a
       flex-direction: column-reverse;
       
    }
-  /* comment placer activités et hébergment??*/
+   .hebergement
+   {
+       position: relative;
+       right: 170px;
+       top: 30px;
+       
+   }
+   .activite
+   {
+       position: relative;
+       top: 48px;
+       left: 35px;
+   }
+   .sinscrire
+   {
+       position: relative;
+       top:23px;
+       left: 45px;
+       
+   }
+  
+
+  /* comment placer activités et hébergment sans position relative??*/
   
     
   #titre_principal
@@ -600,6 +623,7 @@ footer a
     }
     #conteneur 
    {
+       
        flex-direction: column;
        margin-top: auto;
        font-weight: bolder;
@@ -659,6 +683,7 @@ footer a
       padding-left: 20px;
       margin-left: 60px;
       margin-right: 75px;/*comment agir seulement sur le contour de romantique??*/
+
    }
    .liens strong
    {
@@ -679,17 +704,20 @@ footer a
   }
   section 
  {
+     
     flex-direction: column;
     margin-top: auto;
-    width: 414px;
     position: relative;
-    bottom: ;
+    right: 20px;
+    
+   
     
  }
  address
  {
      width: 414px;
      height: 500%;
+     
      
     
  }
@@ -698,18 +726,13 @@ footer a
   {
       
       flex-direction: column;
-      padding-right: 35px;
+      padding-right: 5px;
       padding-left: 20px;
-      
+      position: relative;
+      right: 10px;
   }
   .acannebiere, .hport, .hmouettes, .hmer, .alepanier, .hchezamina
 {
-    widows: 414px;
-    border: 1px white solid;
-    background-color: white;
-    border-radius: 25px;
-    padding-right: 30px;
-    box-shadow: 0px 4px #eeeaea;
     margin-bottom: 20px;
     
 }
@@ -726,36 +749,91 @@ footer a
 }
 address img 
 {
-    width: 350px;
+    width: 380px;
+    height: 180px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
 
  aside
  {
-     display: none;
+     
      width: 414px;
     border-radius: 0px;
-    position: relative;
-    border: 1px black solid;
-    top: 200px;
+    background-color: white;
+    /*comment grossir l'ensemble photos+descrptif de manière proportionnel?*/
  }
+
   
   article
   {
-    display: none;
+    width: 414px;
+    margin-top:435% ;
   }
   #activités
   {
-    display: none;
     flex-direction: column;
+    
+    
   }
+  #activités img 
+  {
+      width: 380px;
+      height: 180px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+     
+  }
+  .fort,.ile,.parc_n,.parc_l,.notre_dame,.port
+  {
+      margin-right: 22px;
+      padding-left: 10px;
+      padding-bottom: 10p;
+      position: relative;
+      margin-bottom: 20px;
+      
+     
+
+  }
+  .ile,.parc_l
+  {
+      margin-top: 0px;
+  }
+  #titre_activités
+  {
+      margin-left: 15px;
+  }
+
   footer 
   {
-    display: none;
+      width: 414px;
+      height: 22%;
+      margin: auto;
       flex-direction: column;
+      margin-top:115% ;
+      
       
   }
+  .a_propos
+  {
+      margin-left: 0%;
+      
+      
+      
+  }
+  .a_propos,.hebergements,.assistance
+  {
+      margin-left: 18px;
+      
+      
+      
+      
+  }
+  .assistance
+  {
+      margin-bottom: 120px;
+  }
+
  
 
 
