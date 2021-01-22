@@ -24,7 +24,8 @@
                            <div class="hebergement"><li><a href="#Hébergement_à_Marseille">Hébergements</a></li></div>
                            <div class="activite"><li><a href="#titre_activités">Activités</a></li></div>
                            <div class="sinscrire"><li><a href="#"><strong>S'inscrire</strong></a></li></div>
-                    
+                    <!--je ne peux pas cibler activité et hebergement pour utiliser flexbox dans mon css
+                    responsive-->
                     </ul>
                 </nav>
             
@@ -41,7 +42,7 @@
                         <input class="texte" type="text" name="ville" id="ville" placeholder= "Marseille,France" maxlength="20" size="17"/>
                     
                         <input  class="submit"  type="submit"  value="Rechercher"/>
-                        <div id="loupe"><i class="fas fa-search"></i></div>
+                        <div id="loupe"> <a href="#"><i class="fas fa-search"></i></a></div>
                 </form>
             </div>
             
@@ -57,8 +58,10 @@
                             <em><a href="#">Romantique</a></em>
                         <strong><i class="fas fa-dog"></i>
                             <a href="#">Animaux autorisés</a></strong></em>
+                            <!--j'utilise des balises em et strong pour différencier et manipuler dans le responsive
+                            bien ou pas??-->
                 
-                        </nav>
+                        </nav> 
                     </div>
                     </div>
                     <div id="information">

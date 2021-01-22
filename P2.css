@@ -561,7 +561,7 @@ footer a
    .hebergement
    {
        position: relative;
-       right: 170px;
+       right: 270px;
        top: 30px;
        
    }
@@ -569,7 +569,7 @@ footer a
    {
        position: relative;
        top: 48px;
-       left: 35px;
+       
    }
    .sinscrire
    {
@@ -602,6 +602,7 @@ footer a
         border:12px #0065FC solid;
         border-radius: 15px;
         background-color: #0065FC;
+        color: white;
         
         
     }
@@ -694,8 +695,9 @@ footer a
    }
    #information
   {
-      font-size: medium;
-      margin: auto;
+      font-size: larger;
+      margin-right: 50px; /*celà me sert à placer le reste de la phrase
+      "dans cette ville" en dessous*/
       position: relative;
       bottom: 40px;
   }
@@ -758,14 +760,14 @@ address img
      width: 414px;
     border-radius: 0px;
     background-color: white;
-    /*comment grossir l'ensemble photos+descrptif de manière proportionnel?*/
+    /*comment grossir l'ensemble photos+descrptif de manière proportionnelle?*/
  }
 
   
   article
   {
     width: 414px;
-    margin-top:435% ;
+    margin-top:438% ;
   }
   #activités
   {
@@ -805,7 +807,8 @@ address img
   {
       width: 414px;
       height: 22%;
-      margin: auto;
+     margin-left: 268px;/*j'utilise cette approche à l'oeuil car 
+     margin:auto; ne centre pas bien, est ce normal?*/
       flex-direction: column;
       margin-top:115% ;
       
@@ -830,6 +833,7 @@ address img
   {
       margin-bottom: 120px;
   }
+  /* sur mon téléphone le contenu de footer sort du cadre??*/
 
  
 
