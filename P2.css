@@ -242,6 +242,7 @@ address
     border-radius: 15px;
     padding-bottom: 40px;
     font-style: normal;
+   
     
     
     
@@ -706,8 +707,7 @@ footer a
      
     flex-direction: column;
     margin-top: auto;
-    position: relative;
-    right: 20px;
+    margin: auto;
     
    
     
@@ -716,6 +716,7 @@ footer a
  {
      width: 414px;
      height: 500%;
+     padding-left: 4px;
      
      
     
@@ -758,6 +759,7 @@ address img
  {
      
      width: 414px;
+     margin: auto;
     border-radius: 0px;
     background-color: white;
     /*comment grossir l'ensemble photos+descrptif de manière proportionnelle?*/
@@ -771,6 +773,8 @@ address img
   }
   #activités
   {
+      width: 414px;
+      margin: auto;
     flex-direction: column;
     
     
@@ -833,10 +837,63 @@ address img
   {
       margin-bottom: 120px;
   }
+}
   /* sur mon téléphone le contenu de footer sort du cadre??*/
+  @media all and (min-width: 768px)and (max-width: 1024px)
+  {
+   
+    #bloc_page
+    {
+      width: 768px;
+      margin: aut;
+     
+    }
+    #logo_nav
+    {
+       flex-direction: column;/* le fait de cette direction ça introduit
+       le logo reservia en énorme au dessus??*/
+      
+    }
+     nav ul
+    {
+      justify-content: space-between;
+    }
+    
+    
+    #conteneur strong a
+    {
+      position: relative;
+      right: 85px;
+      bottom: 0.5px;
+      border-left: 0px;
+      border-top-left-radius: 1px;
+      border-bottom-left-radius: 1px;
+     
+    }
+    #conteneur strong i
+    {
+      margin-right: 100px;
+      margin-top: 10px;
+    }
+    #conteneur span i 
+    {
+        position: relative;
+        top: 2.5px;
+       
+    }
+     section
+    {
+        flex-direction: column;
+        width: 768px;
+        border: 10px lawngreen solid;
+    }
+    #activités
+    {
+        display: none;
+    }
+    #
 
- 
-
+    
 
    
 
