@@ -929,7 +929,6 @@ address img
     #hébergement_à_Marseille
     {
         margin-top: 2px;
-        border: 1px blue solid;
         height: 80px;
         
         /*Voir comment mettre "hébergement à Marseille" sur une ligne, et sans
@@ -949,10 +948,7 @@ address img
         right: 200px;
         margin-top: 100px;
     }
-    #hotel
-    {
-        border: 1px blue solid;
-    }
+    
     .lien
     {
         margin-top: 930px;
