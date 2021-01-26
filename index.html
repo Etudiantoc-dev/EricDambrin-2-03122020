@@ -3,7 +3,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
         <meta charset="utf-8" />
+<<<<<<< HEAD
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+=======
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+>>>>>>> mission
         <link rel="stylesheet" href="P2.css" />
         <script src="https://kit.fontawesome.com/028f5918e4.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
@@ -21,10 +25,11 @@
             
                 <nav>
                     <ul>
-                        
+                        <div id="ul">
                            <div class="hebergement"><li><a href="#Hébergement_à_Marseille">Hébergements</a></li></div>
                            <div class="activite"><li><a href="#titre_activités">Activités</a></li></div>
                            <div class="sinscrire"><li><a href="#"><strong>S'inscrire</strong></a></li></div>
+                        </div>
                     <!--je ne peux pas cibler activité et hebergement pour utiliser flexbox dans mon css
                     responsive-->
                     </ul>
@@ -49,21 +54,22 @@
             
             <div id="conteneur">
                 <div class="filtres">Filtres</div>
-                    <div class="liens">
+                    
                         <nav>
-                        <span><i class="fas fa-money-bill-wave"></i>
-                            <a href="#">Économique</a>
-                        <i class="fas fa-universal-access"></i>
-                            <a href="#">Familial</a></span>
-                        <em><i class="fab fa-gratipay"></i>
-                            <em><a href="#">Romantique</a></em>
-                        <strong><i class="fas fa-dog"></i>
-                            <a href="#">Animaux autorisés</a></strong></em>
-                            <!--j'utilise des balises em et strong pour différencier et manipuler dans le responsive
-                            bien ou pas??-->
-                
-                        </nav> 
-                    </div>
+                            <div id="liens">
+                              <div class="economique"><i class="fas fa-money-bill-wave"></i>
+                            <a href="#">Économique</a></div>
+                              <div class="familial"><i class="fas fa-universal-access"></i>
+                            <a href="#">Familial</a></div>
+                              <div class="romantique"><i class="fab fa-gratipay"></i>
+                            <a href="#">Romantique</a></div>
+                              <div class="animaux"><i class="fas fa-dog"></i>
+                            <a href="#">Animaux autorisés</a></div>
+                            
+                        </div>
+                        
+                    </nav> 
+                    
                     </div>
                     <div id="information">
                         <div class="logo"><i class="fas fa-info-circle"></i></div>

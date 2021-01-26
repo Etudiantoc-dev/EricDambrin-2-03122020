@@ -18,14 +18,19 @@ body
 #bloc_page
 {
     margin: 0 50 0 50;
+    
 
+}
+#ul
+{
+    display: flex;
 }
 
 
 
 nav ul
 {
-    display: flex;
+    
     list-style-type: none;
     flex-wrap: wrap;
     
@@ -150,9 +155,14 @@ nav a:hover
   font-weight: bold;
   
 }
+#liens
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
-.liens i /*Que les logos des liens*/
+#liens i /*Que les logos des liens*/
 {
     
     border: 10px hsl(216, 100%, 94%) solid;
@@ -171,7 +181,7 @@ nav a:hover
 
 
 
-.liens a/*que les liens sans les logos*/
+#liens a/*que les liens sans les logos*/
 {
     color: black;
     border: 1px grey solid;
@@ -183,7 +193,7 @@ nav a:hover
   
 }
 
-.liens a:hover
+#liens a:hover
 {
     
     color:rosybrown;
@@ -226,6 +236,7 @@ section
     width: 100%;
     height: 622px;
     justify-content:space-between;
+    flex-wrap: wrap;
    
     
    
@@ -254,6 +265,12 @@ address img,article img
    
     border-radius: 17px;
 
+}
+address img
+{
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    margin-bottom: 8px;
 }
 
 
@@ -286,6 +303,25 @@ section a, article a
     justify-content: space-around;
     margin-top: 20px;
 }
+#hotel strong
+{
+    margin-left: 10px;
+    
+
+   
+}
+#hotel span
+{
+    margin-left: 10px;
+}
+#hotel_2 strong
+{
+    margin-left: 10px;
+}
+#hotel_2 span
+{
+    margin-left: 10px;
+}
 .lien
 {
     margin-left: 80px;
@@ -306,18 +342,26 @@ section a, article a
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 5 5 5 5;
+    padding: 5 5 15 5;
     box-shadow: 0px 4px #eeeaea;
+    
     
     
 
     
 }
+#hotel i, #hotel_2 i
+{
+    margin-top: 5px;
+    position: relative;
+    right:6px;
+   
+}
 
  #stars_blue
 {
     
-    color:  blue
+    color:  #0065FC
     
     
 }
@@ -329,6 +373,10 @@ section a, article a
 #stars
 {
     display: flex;
+    font-size: small;
+    
+    
+    
 }
 #hotels_lpp i
 {
@@ -341,11 +389,11 @@ section a, article a
 aside
 {
 
-    width: 22%;
-    height: 573px;
+    margin-left: 20px;
+    height: 662px;
     background-color: #F2F2F2;
     border-radius: 15px;
-    padding-bottom: 90px;
+    
     
 }
 .image img
@@ -383,6 +431,7 @@ aside
 .intitulé,#stars
 {
     margin-left: 15px;
+    margin-top: 5px;
 }
 
 #hotels_lpp
@@ -394,14 +443,14 @@ aside
 #le_soleil_du_matin
 {
     display: flex;
-    justify-content: space-around;
+    
     margin-top: 12px;
     margin-inline: 35p; /*si je le met ça équilibre les boites quand je suis 
     en double-écran??*/
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 2 40 1 3;
+    padding: 3 0 3 3;
     box-shadow: 0px 4px #eeeaea;
     
   
@@ -411,13 +460,13 @@ aside
 {
     
     display: flex;
-    justify-content: space-around;
+    
     margin-top: 40px;
     margin-inline: 35p;
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 2 40 1 3;
+    padding: 3 0 3 3;
     box-shadow: 0px 4px #eeeaea;
     
     
@@ -430,13 +479,14 @@ aside
 {
     
     display: flex;
-    justify-content: space-around;
+    
     margin-top: 40px;
     margin-inline: 35p; 
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 2 40 1 0;
+    padding: 3 5 3 3; /*bonne dimension si 40,pas 5 sur padding right mais
+    problème de dimension quand l'écran ordi tout seul??*/
     box-shadow: 0px 4px #eeeaea;
     
 }
@@ -557,14 +607,18 @@ footer a
 
 
 
-@media screen and (max-device-width:480px)
+@media screen and (max-device-width:750px)
 
 {
+
     #bloc_page
     {
-       width: 414px;
-       margin: auto;
        
+       
+    }
+    #logo_nav
+    {
+        display: flex;
     }
   
    #logo_nav ul 
@@ -602,6 +656,7 @@ footer a
    {
        font-size: 22px;
        margin-bottom: 10px;
+       width: 750px;
    }
    .submit
    {
