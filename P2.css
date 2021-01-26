@@ -18,6 +18,7 @@ body
 #bloc_page
 {
     margin: 0 50 0 50;
+    
 
 }
 
@@ -150,9 +151,14 @@ nav a:hover
   font-weight: bold;
   
 }
+#liens
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
-.liens i /*Que les logos des liens*/
+#liens i /*Que les logos des liens*/
 {
     
     border: 10px hsl(216, 100%, 94%) solid;
@@ -171,7 +177,7 @@ nav a:hover
 
 
 
-.liens a/*que les liens sans les logos*/
+#liens a/*que les liens sans les logos*/
 {
     color: black;
     border: 1px grey solid;
@@ -183,7 +189,7 @@ nav a:hover
   
 }
 
-.liens a:hover
+#liens a:hover
 {
     
     color:rosybrown;
@@ -226,6 +232,7 @@ section
     width: 100%;
     height: 622px;
     justify-content:space-between;
+    flex-wrap: wrap;
    
     
    
@@ -596,7 +603,7 @@ footer a
 
 
 
-@media screen and (max-device-width:480px)
+@media screen and (max-device-width:750px)
 
 {
     #bloc_page
