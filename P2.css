@@ -610,43 +610,31 @@ footer a
 @media screen and (max-device-width:750px)
 
 {
+ #bloc_page
+ {
+     width: max-content;
+     
+ }
+ #logo_nav
+ {
+     flex-direction: colum;
+    
+ }
+ #ul
+ {
+     justify-content: space-between;
+     flex-direction: column-reverse;
+     margin-top: 60px;
+ }
+ #logo_nav img 
+ {
+     width: 200px;
+ }
+ .sinscrire
+ {
+     margin-bottom: 
+ }
 
-    #bloc_page
-    {
-       
-       
-    }
-    #logo_nav
-    {
-        display: flex;
-    }
-  
-   #logo_nav ul 
-   {
-      
-      flex-direction: column-reverse;
-      
-   }
-   .hebergement
-   {
-       position: relative;
-       right: 270px;
-       top: 30px;
-       
-   }
-   .activite
-   {
-       position: relative;
-       top: 48px;
-       
-   }
-   .sinscrire
-   {
-       position: relative;
-       top:23px;
-       left: 45px;
-       
-   }
   
 
   /* comment placer activités et hébergment sans position relative??*/
