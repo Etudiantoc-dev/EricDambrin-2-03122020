@@ -608,7 +608,7 @@ footer a
 
 
 
-@media screen and (max-device-width:750px)
+@media screen and (max-device-width:425px)
 
 {
  #bloc_page
@@ -919,6 +919,8 @@ address img
   /* sur mon téléphone le contenu de footer sort du cadre??*/
   @media only screen and (device-width: 768px)
   {
+     
+      
       
    
     #logo_nav img 
@@ -961,9 +963,8 @@ address img
     }
     #hébergement_à_Marseille h1
     {
-        margin-top: 2px;
-        position: relative;
-        right: 0%;
+        margin-top: 10px;
+        
         
        
         
@@ -1023,58 +1024,31 @@ address img
     }
     article
     {
-        margin-top: 1100px;
+        margin-top: 400px;
         width: 768px;
         
         
-    }
-    #activités
-    {
-        flex-direction: column;
-        padding-left: 250px;
-        
-        
+    } 
     }
     .port,.fort,.ile,.parc_n,.notre_dame,.parc_l
     {
-        width: 290px;
-        background-color: #F2F2F2;
+      margin-right: 20px;
     }
     #activités img  
     {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
-    #titre_activités
+    #parc_l /*je n'arrive pas à descendre parc longchamp pour l'aligner??*/
     {
-        width: 768px;
-        margin: auto;
-        margin-left: 275px;
+       
+    }
+    footer
+    {
         
+        width: 1330px;
     }
-    .ile,.parc_n
-    {
-       margin-top: 20px;
-    }
-    .port,.fort
-    {
-        margin-bottom: 20px;
-    }
-    .parc_n,.notre_dame
-    {
-        margin-bottom: 6px;
-    }
-    .notre_dame,.parc_l
-    {
-        margin-top: 20px;
-    }
-    footer 
-    {
-        position: relative;
-        top: 1300px;
-        width: 768px;
-        margin: auto;
-    }
+    
 
     
     
