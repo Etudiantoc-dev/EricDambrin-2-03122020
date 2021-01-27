@@ -237,7 +237,7 @@ section
     width: 100%;
     height: 622px;
     justify-content:space-between;
-    flex-wrap: wrap;
+    flex-wrap: wra;
    
     
    
@@ -921,12 +921,9 @@ address img
   {
       
    
-    #bloc_page
+    #logo_nav img 
     {
-      width: 768px;
-      margin: auto;
-      
-     
+        width: 200px;
     }
     #logo_nav
     {
@@ -934,45 +931,26 @@ address img
        le logo reservia en énorme au dessus??*/
       
     }
-     nav ul
+    #ul
     {
-      justify-content: space-between;
+        width: 1250px;
+        justify-content: space-around;
+        
     }
-    
-    
-    #conteneur strong a
+    #conteneur
     {
-      position: relative;
-      right: 85px;
-      bottom: 0.5px;
-      border-left: 0px;
-      border-top-left-radius: 1px;
-      border-bottom-left-radius: 1px;
+        width: 1250px;
+        justify-content: flex-start;
+    }
      
-    }
-    #conteneur strong i
-    {
-      margin-right: 100px;
-      margin-top: 15px;
-    }
     
-    #conteneur span i 
-    {
-        position: relative;
-        top: 0.5px;
-       
-    }
-    nav strong a 
-    {
-        margin-left: 55px;
-      
-       
-    }
+    
+    
      section
     {
-        flex-direction: column;
-        width: max-content;
-        border: 1px lawngreen solid;
+       
+       margin-left: 0px;
+        
     }
     address
     {
@@ -981,10 +959,14 @@ address img
         display: flex;
         
     }
-    #hébergement_à_Marseille
+    #hébergement_à_Marseille h1
     {
         margin-top: 2px;
-        height: 80px;
+        position: relative;
+        right: 0%;
+        
+       
+        
         
         /*Voir comment mettre "hébergement à Marseille" sur une ligne, et sans
         faire bouger les hotels en même temps quand je fais:
@@ -1006,9 +988,12 @@ address img
     
     .lien
     {
-        margin-top: 930px;
-        position: relative;
-        right: 1000px; /* même problème que pour "hébergement à Marseille" et
+        margin-top: 900px;
+        padding: 10 10 50 10;
+        font-size: larger;
+        
+        
+        /* même problème que pour "hébergement à Marseille" et
         pourquoi je ne peux pas déplacer "afficher plus" à gauche
         avec un margin right*/
         
@@ -1018,10 +1003,10 @@ address img
    
     aside
     {
-        display: fle;
-        width: 600px;
-        margin:auto;
-        margin-top: 20px;
+        
+        margin-left: 100px;
+        
+       
         background-color:#91a9ce ;
         
     }
@@ -1029,9 +1014,10 @@ address img
     {
         
         width: max-content;
-        margin: auto;
+        padding: 0 0 10 10;
         margin-top: 10px;
-        margin-right: 130px;
+        margin-right: 13px;
+        
        
         
     }
