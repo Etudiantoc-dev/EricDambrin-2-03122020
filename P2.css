@@ -24,6 +24,7 @@ body
 #ul
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -32,7 +33,7 @@ nav ul
 {
     
     list-style-type: none;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -615,25 +616,36 @@ footer a
      width: max-content;
      
  }
- #logo_nav
- {
-     flex-direction: colum;
-    
- }
+ 
  #ul
  {
-     justify-content: space-between;
-     flex-direction: column-reverse;
-     margin-top: 60px;
+     width: 750px;
+     flex-flow: column-reverse wrap;
+    
  }
  #logo_nav img 
  {
-     width: 200px;
+     width: 300px;
  }
  .sinscrire
  {
-     margin-bottom: 
+     margin-top: 60px;
+     align-self: flex-end;
+     margin-right: 60px;
  }
+ .hebergement 
+ {
+    position: relative;
+    right: 300px;
+    top: 30px;
+ }
+ .activite
+ {
+     position: relative;
+     top: 49px;
+     left: 300px;
+ }
+ 
 
   
 
