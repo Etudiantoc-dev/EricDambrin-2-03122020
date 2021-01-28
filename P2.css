@@ -557,32 +557,40 @@ h4
 }
 
 
-footer
+#aide
 {
     
+   
+    width: 1680px;
     height: 200px;
     background-color: #F2F2F2;
-    padding-top: 80px;
+    padding-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content:  space-around;
+    /*je n'arrive pas à déplacer les paragraphes 
+    sur la gauche dans l'alignement?*/
+    
+    
   
 
     
 }
+
  
     
 .a_propos
 {
-    margin-right: auto;
-    margin-left: 50px;
+    
+    padding-left: aut;
+    
 }
 .hebergements
 {
-    margin-right: auto;
+    margin-right: aut;
 }
 .assistance
 {
-    margin-right: auto;
+    margin-right: aut;
 }
 p
 {
@@ -773,6 +781,7 @@ footer a
   }
   section 
  {
+     display: none;
      
     flex-direction: column;
     margin-top: auto;
@@ -783,7 +792,8 @@ footer a
  }
  address
  {
-     width: 414px;
+     
+     width: 414p;
      height: 500%;
      padding-left: 4px;
      background-color: white;
@@ -821,7 +831,7 @@ footer a
 }
 address img 
 {
-    width: 380px;
+    width: 380p;
     height: 180px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -830,7 +840,8 @@ address img
  aside
  {
      
-     width: 414px;
+     
+     width: 414p;
      margin: auto;
     border-radius: 0px;
    
@@ -840,7 +851,8 @@ address img
   
   article
   {
-    width: 414px;
+      display: none;
+    width: 414p;
     margin-top:438% ;
   }
   #titre_activités
@@ -850,7 +862,7 @@ address img
   }
   #activités
   {
-      width: 414px;
+      width: 414p;
       margin: auto;
       margin-top: 50px;
     flex-direction: column;
@@ -859,7 +871,7 @@ address img
   }
   #activités img 
   {
-      width: 380px;
+      width: 380p;
       height: 180px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
@@ -887,6 +899,7 @@ address img
 
   footer 
   {
+      display: none;
       width: 414px;
       height: 22%;
      margin-left: 268px;/*j'utilise cette approche à l'oeuil car 
@@ -917,9 +930,12 @@ address img
   }
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media only screen and (device-width: 768px)
+  @media  screen and (device-width: 768px)
   {
-     
+     header
+     {
+        
+     }
       
       
    
@@ -1043,9 +1059,9 @@ address img
     {
        
     }
-    footer
+    #aide
     {
-        
+       
         width: 1330px;
     }
     
