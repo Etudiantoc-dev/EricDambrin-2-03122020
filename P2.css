@@ -161,7 +161,14 @@ nav a:hover
     display: flex;
     flex-wrap: wrap;
 }
-
+#ecofami
+{
+    display: flex;
+}
+#romani
+{
+    display: flex;
+}
 
 #liens i /*Que les logos des liens*/
 {
@@ -526,7 +533,7 @@ aside
 } 
 .port,.fort,.parc_n,.notre_dame
 {
-    margin-top: 0px;
+    
     
     
 }
@@ -537,6 +544,8 @@ aside
     
     
 }
+
+
 
 .fort,.ile,.notre_dame,.parc_l
 {
@@ -561,7 +570,7 @@ h4
 {
     
    
-    width: 1680px;
+    
     height: 200px;
     background-color: #F2F2F2;
     padding-top: 50px;
@@ -619,40 +628,15 @@ footer a
 @media screen and (max-device-width:425px)
 
 {
- #bloc_page
- {
-     width: max-content;
-     
- }
+    #bloc_page 
+    {
+        width: max-content;
+        
+    }
  
- #ul
- {
-     width: 750px;
-     flex-flow: column-reverse wrap;
-    
- }
- #logo_nav img 
- {
-     width: 300px;
- }
- .sinscrire
- {
-     margin-top: 60px;
-     align-self: flex-end;
-     margin-right: 60px;
- }
- .hebergement 
- {
-    position: relative;
-    right: 300px;
-    top: 30px;
- }
- .activite
- {
-     position: relative;
-     top: 49px;
-     left: 300px;
- }
+ 
+
+ 
  
 
   
@@ -706,86 +690,43 @@ footer a
 
     }
    
-   
-   
-   #conteneur nav a
+   #liens
    {
-       display: flex;
        flex-direction: column;
-       margin-right: auto;
-       border-left: 0px;
-       border-top-left-radius: 0px;
-       border-bottom-left-radius: 0px;
-       padding-left: 15px;
-       padding-right: 15px;
-    
-       
-      
+       position: relative; /*pourquoi margin ne marche pas??*/
+       right: 85px;
+       margin-top: 15px;
        
    }
-   #conteneur span a 
-   {
-    position: relative;
-    right: 60px;
-    font-size: large;
-    
-    }
-   #conteneur span 
-   {
-       display: flex;
-       margin-top: 12px;
-   }
-   .liens i 
-   {
-     position: relative;
-     left: 0px;
-     
-   }
-   .liens em 
-   {
-       font-style: normal ;
-       
-       
-   }
-   .liens em i 
-   {
-    margin-top: 12px;
-   }
-   #conteneur em a 
-   {
-      position: relative;
-      bottom: 35px;
-      right: 35px;
-      padding-left: 20px;
-      margin-left: 60px;
-      margin-right: 75px;/*comment agir seulement sur le contour de romantique??*/
+  #romani
+  {
+      flex-direction: column;
+      margin-top: 12px;
+  }
+  .animaux
+  {
+      margin-top: 12px;
+  }
+  
+   
+   
+   
 
-   }
-   .liens strong
-   {
-      position: relative;
-      bottom: 35px;
-      
-   }
-   #conteneur strong
-   {
-       font-weight: bold;
-   }
    #information
   {
+      
       font-size: larger;
       margin-right: 50px; /*celà me sert à placer le reste de la phrase
       "dans cette ville" en dessous*/
-      position: relative;
-      bottom: 40px;
+     
   }
   section 
  {
-     display: none;
+     
      
     flex-direction: column;
-    margin-top: auto;
-    margin: auto;
+    
+    
     
    
     
@@ -793,11 +734,12 @@ footer a
  address
  {
      
-     width: 414p;
+     width: 414px;
      height: 500%;
-     padding-left: 4px;
-     background-color: white;
-     
+     margin: auto;
+     background-color: #F2F2F2;
+     padding-left: 20px;
+     border-radius: 0px;
      
     
  }
@@ -806,10 +748,10 @@ footer a
   {
       
       flex-direction: column;
-      padding-right: 5px;
+      padding-right: 45px;
       padding-left: 20px;
-      position: relative;
-      right: 10px;
+      
+     
   }
   .acannebiere, .hport, .hmouettes, .hmer, .alepanier, .hchezamina
 {
@@ -831,7 +773,7 @@ footer a
 }
 address img 
 {
-    width: 380p;
+    
     height: 180px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -841,9 +783,11 @@ address img
  {
      
      
-     width: 414p;
+     padding-right: 25px;
      margin: auto;
     border-radius: 0px;
+    padding-bottom: 20px;
+    margin-top: 15px;
    
     /*comment grossir l'ensemble photos+descrptif de manière proportionnelle?*/
  }
@@ -851,14 +795,15 @@ address img
   
   article
   {
-      display: none;
-    width: 414p;
-    margin-top:438% ;
+      
+    width: 414px;
+    margin: auto;
+    margin-top:260% ;
   }
   #titre_activités
   {
-      position: relative;
-      top: 20px;
+    position: relative;
+    left: 20px;
   }
   #activités
   {
@@ -871,7 +816,7 @@ address img
   }
   #activités img 
   {
-      width: 380p;
+      width: 380px;
       height: 180px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
@@ -895,17 +840,19 @@ address img
   #titre_activités
   {
       margin-left: 15px;
+      position: relative;
+      top:10px;
   }
 
   footer 
   {
-      display: none;
-      width: 414px;
+      
+      width: 790px;
       height: 22%;
-     margin-left: 268px;/*j'utilise cette approche à l'oeuil car 
+     margin-left: 268p;/*j'utilise cette approche à l'oeuil car 
      margin:auto; ne centre pas bien, est ce normal?*/
       flex-direction: column;
-      margin-top:115% ;
+      margin-top:1080px ;
       
       
   }
@@ -930,12 +877,14 @@ address img
   }
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media  screen and (device-width: 768px)
+  @media  only screen and (device-width: 768px)
   {
-     header
+     body 
      {
-        
+         width: max-content;
+         
      }
+    
       
       
    
@@ -967,7 +916,7 @@ address img
      section
     {
        
-       margin-left: 0px;
+       justify-content: space-around;
         
     }
     address
@@ -975,6 +924,7 @@ address img
         width: 768px;
         height: 950px;
         display: flex;
+        
         
     }
     #hébergement_à_Marseille h1
@@ -1021,7 +971,7 @@ address img
     aside
     {
         
-        margin-left: 100px;
+        
         
        
         background-color:#91a9ce ;
@@ -1030,10 +980,9 @@ address img
     #hotels_lpp
     {
         
-        width: max-content;
-        padding: 0 0 10 10;
-        margin-top: 10px;
-        margin-right: 13px;
+        
+        padding: 0 0 10 20;
+       
         
        
         
@@ -1057,12 +1006,12 @@ address img
     }
     #parc_l /*je n'arrive pas à descendre parc longchamp pour l'aligner??*/
     {
-       
+       padding-top: px;
     }
     #aide
     {
        
-        width: 1330px;
+        
     }
     
 
