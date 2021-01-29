@@ -3,7 +3,7 @@
     src: url("Raleway-Italic-VariableFont_wght.ttf") format("ttf"),
          url("Raleway-variableFont_wght.ttf") format("ttf"),
          url("Raleway-Regular.ttf") format("ttf")
-         url("Raleway-Bold.ttf") format("ttf")
+         
         
 
 }
@@ -17,7 +17,7 @@ body
 }
 #bloc_page
 {
-    margin: 0 50 0 50;
+    margin: 0 50 0 50 ;
     
 
 }
@@ -252,7 +252,7 @@ section
     width: 100%;
     height: 622px;
     justify-content:space-between;
-    flex-wrap: wra;
+    
    
     
    
@@ -374,14 +374,14 @@ section a, article a
    
 }
 
- #stars_blue
+ .stars_blue
 {
     
     color:  #0065FC
     
     
 }
-#stars_grey
+.stars_grey
 {
     color: #c9c6c6;
     
@@ -461,8 +461,6 @@ aside
     display: flex;
     
     margin-top: 12px;
-    margin-inline: 35p; /*si je le met ça équilibre les boites quand je suis 
-    en double-écran??*/
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
@@ -478,7 +476,6 @@ aside
     display: flex;
     
     margin-top: 40px;
-    margin-inline: 35p;
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
@@ -497,7 +494,6 @@ aside
     display: flex;
     
     margin-top: 40px;
-    margin-inline: 35p; 
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
@@ -614,7 +610,7 @@ footer a
 
 
 @media screen and (max-device-width:425px)
-
+/*le média max-device-width est déconseillé par le validateur??*/
 {
    
     #bloc_page 
@@ -863,7 +859,7 @@ address img
   }
   #activités
   {
-      width: 414p;
+      
       margin: auto;
       margin-top: 50px;
     flex-direction: column;
@@ -882,7 +878,6 @@ address img
   {
       margin-right: 22px;
       padding-left: 10px;
-      padding-bottom: 10p;
       position: relative;
       margin-bottom: 20px;
       
@@ -905,8 +900,6 @@ address img
       
       width: 805px;
       height: 22%;
-     margin-left: 268p;/*j'utilise cette approche à l'oeuil car 
-     margin:auto; ne centre pas bien, est ce normal?*/
       flex-direction: column;
       margin-top:1080px ;
       
@@ -933,7 +926,7 @@ address img
   }
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media  only screen and (device-width: 768px)
+  @media  only screen and (device-width: 768px) /*pareil que iphone déconseillé??*/
   {
      body 
      {
@@ -941,9 +934,6 @@ address img
          
      }
     
-      
-      
-   
     #logo_nav img 
     {
         width: 200px;
