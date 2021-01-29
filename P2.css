@@ -386,7 +386,7 @@ section a, article a
     color: #c9c6c6;
     
 }
-#stars
+.stars
 {
     display: flex;
     font-size: small;
