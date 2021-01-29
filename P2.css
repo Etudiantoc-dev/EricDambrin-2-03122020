@@ -927,7 +927,7 @@ address img
   }
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media  only screen and (device-width: 768px) /*pareil que iphone déconseillé??*/
+  @media  only screen and (min-device-width: 768px) /*pareil que iphone déconseillé??*/
   {
      body 
      {
