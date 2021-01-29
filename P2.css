@@ -26,6 +26,11 @@ body
     display: flex;
     flex-wrap: wrap;
 }
+.hebact
+{
+    display: flex;
+}
+
 
 
 
@@ -66,6 +71,7 @@ nav a:hover
 {
    font-size: 1.5em;
    margin-top: 30px;
+   display: flex;
 }
 #sous_titre
 {
@@ -87,7 +93,7 @@ nav a:hover
 #formulaire i
 {
     
-    font-size:18px;
+    
     border:12px #F2F2F2 solid;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -97,6 +103,7 @@ nav a:hover
     padding-top: 3px;
     padding-bottom: 6px;
     background-color: #F2F2F2;
+    
    
     
     
@@ -233,6 +240,7 @@ nav a:hover
     color:white;
     font-size: 20px;
     height: 20px;
+    
 }
 
 
@@ -581,21 +589,6 @@ h4
 }
 
  
-    
-.a_propos
-{
-    
-    padding-left: aut;
-    
-}
-.hebergements
-{
-    margin-right: aut;
-}
-.assistance
-{
-    margin-right: aut;
-}
 p
 {
     font-family:"raleway-regular"
@@ -623,28 +616,70 @@ footer a
 @media screen and (max-device-width:425px)
 
 {
+   
     #bloc_page 
     {
         width: max-content;
+        padding: 0 0 0 0;
+        
         
     }
- 
- 
-
- 
- 
-
-  
-
-  /* comment placer activités et hébergment sans position relative??*/
+    
+    #ul
+    {
+       flex-direction: column-reverse;
+       margin-top: 90px;
+       
+    }
+    .hebact
+    {
+        
+        margin-top: 50px;
+        position: relative;
+        right: 150px;
+        
+        /* est-ce normal que j'ai recourt à la position relative??*/
+        
+        
+    }
+    .sinscrire
+    {
+        align-self: flex-end;
+        margin-top: 25px;
+        margin-right: 40px;
+        
+    }
+    .hebergement
+    {
+        
+        margin-right: 150px;
+        margin-left: 0px;
+    }
+    #ul a 
+    {
+        font-size: x-large;
+    }
+    header img 
+    {
+        width: 180px;
+       
+    }
+   
+    
   
     
   #titre_principal
    {
-       font-size: 22px;
-       margin-bottom: 10px;
-       width: 750px;
+       font-size: 27px;
+       margin-bottom: 10px;/*faut-il que je délimite une largeur pour que le texte aille
+       à la ligne quand je grossis la police??*/
+       
    }
+   #sous_titre
+   {
+       font-size: 25px;
+   }
+   
    .submit
    {
        display: none;
@@ -653,6 +688,20 @@ footer a
     {
         display: block;
         color: white;
+        margin-top: 2px;
+        
+    }
+    #formulaire i,.submit,#loupe,#ville.texte,::placeholder,#formulaire
+    {
+        font-size: xx-large;
+        
+    }
+    #ville.texte
+    {
+        height: 66px;
+        margin-top: 0.5px; /*je n'arrive pas à coller la loupe sur le cadre du placeholder*/
+       
+        
     }
     #loupe i 
     {
@@ -663,6 +712,7 @@ footer a
         
         
     }
+    
     form 
     {
         display: flex;
@@ -682,6 +732,7 @@ footer a
        flex-direction: column;
        margin-top: auto;
        font-weight: bolder;
+       
 
     }
    
@@ -692,6 +743,18 @@ footer a
        right: 85px;
        margin-top: 15px;
        
+   }
+   #liens a 
+   {
+       font-size: x-large;
+   }
+   #liens i 
+   {
+       font-size: x-large;
+   }
+   .filtres
+   {
+       font-size: x-large;
    }
   #romani
   {
@@ -704,16 +767,14 @@ footer a
   }
   
    
-   
-   
-
-   #information
+ .logo,.informatif
   {
-      
-      font-size: larger;
-      margin-right: 50px; /*celà me sert à placer le reste de la phrase
-      "dans cette ville" en dessous*/
-     
+        font-size: x-large;
+  }
+  .logo
+  {
+     padding: 0 0 3 0;
+     /* je n'arrive pas à enlever le résidu de bleu qui vient du background color dans le cercle?*/
   }
   section 
  {
@@ -842,7 +903,7 @@ address img
   footer 
   {
       
-      width: 790px;
+      width: 805px;
       height: 22%;
      margin-left: 268p;/*j'utilise cette approche à l'oeuil car 
      margin:auto; ne centre pas bien, est ce normal?*/
