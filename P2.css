@@ -21,7 +21,7 @@ body
     
 
 }
-#ul
+ul
 {
     display: flex;
     flex-wrap: wrap;
@@ -622,7 +622,7 @@ footer a
         
     }
     
-    #ul
+    ul
     {
        flex-direction: column-reverse;
        margin-top: 90px;
@@ -652,7 +652,7 @@ footer a
         margin-right: 150px;
         margin-left: 0px;
     }
-    #ul a 
+    ul a 
     {
         font-size: x-large;
     }
@@ -945,7 +945,7 @@ address img
        le logo reservia en énorme au dessus??*/
       
     }
-    #ul
+    ul 
     {
         width: 1250px;
         justify-content:space-around;
