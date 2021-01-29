@@ -17,7 +17,7 @@ body
 }
 #bloc_page
 {
-    margin: 0 50 0 50 ;
+    margin: 0 50px 0 50px ;
     
 
 }
@@ -359,7 +359,7 @@ section a, article a
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 5 5 15 5;
+    padding: 5px 5px 15px 5px;
     box-shadow: 0px 4px #eeeaea;
     
     
@@ -453,8 +453,8 @@ aside
 
 #hotels_lpp
 {
-    padding: 10 0 0 45;
-    margin: 0 20 0 0;
+    padding: 10px 0 0 45px;
+    margin: 0 20px 0 0;
 }
 
 #le_soleil_du_matin
@@ -465,7 +465,7 @@ aside
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 3 0 3 3;
+    padding: 3px 0 3px 3px;
     box-shadow: 0px 4px #eeeaea;
     
   
@@ -480,7 +480,7 @@ aside
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 3 0 3 3;
+    padding: 3px 0 3px 3px;
     box-shadow: 0px 4px #eeeaea;
     
     
@@ -498,7 +498,7 @@ aside
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 3 5 3 3; /*bonne dimension si 40,pas 5 sur padding right mais
+    padding: 3px 5px 3px 3px; /*bonne dimension si 40,pas 5 sur padding right mais
     problème de dimension quand l'écran ordi tout seul??*/
     box-shadow: 0px 4px #eeeaea;
     
@@ -770,7 +770,7 @@ footer a
   }
   .logo
   {
-     padding: 0 0 3 0;
+     padding: 0 0 3px 0;
      /* je n'arrive pas à enlever le résidu de bleu qui vient du background color dans le cercle?*/
   }
   section 
@@ -1033,7 +1033,7 @@ address img
     {
         margin-top: 920px;
         font-size: larger;
-        padding: 10 15 65 15;
+        padding: 10px 15px 65px 15px;
         border: 3px#91a9ce dashed ;
         background-color: #F2F2F2;
         border-radius: 20px;
@@ -1071,12 +1071,12 @@ address img
     #tout_bleu_et_blanc,#au_coeur_de_l_eau
     {
         margin-top: 100px;
-        padding: 5 5 5 5;
+        padding: 5px 5px 5px 5px;
     }
     #le_soleil_du_matin
     {
         margin-top: 50px;
-        padding: 5 5 5 5;
+        padding: 5px 5px 5px 5px;
     }
     aside img 
     {
