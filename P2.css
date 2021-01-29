@@ -957,17 +957,30 @@ address img
     #ul
     {
         width: 1250px;
-        justify-content: space-around;
+        justify-content:space-around;
+        font-size: 27px;
         
     }
+    
+    .hebact
+    {
+       margin-left: 200px;
+    }
+    .hebergement
+    {
+        margin-right: 200px;
+    }
+    .activite
+    {
+        margin-right:200px;
+    }
+     
+    
     #conteneur
     {
         width: 1250px;
         justify-content: flex-start;
     }
-     
-    
-    
     
      section
     {
@@ -999,6 +1012,22 @@ address img
         
        
     }
+    #hotel strong  
+    {
+        font-size: large;
+    }
+    #hotel span 
+    {
+        font-size: large;
+    }
+    #hotel_2 strong 
+    {
+        font-size: large;
+    }
+    #hotel_2 span 
+    {
+        font-size: large;
+    }
     #hotel,#hotel_2
     {
         
@@ -1011,9 +1040,14 @@ address img
     
     .lien
     {
-        margin-top: 900px;
-        padding: 10 10 50 10;
+        margin-top: 920px;
         font-size: larger;
+        padding: 10 15 65 15;
+        border: 3px#91a9ce dashed ;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        margin-left: 0px;
+        
         
         
         /* même problème que pour "hébergement à Marseille" et
@@ -1029,19 +1063,37 @@ address img
         
         
         
-       
+       padding-bottom: 230px;
         background-color:#91a9ce ;
+        
         
     }
     #hotels_lpp
     {
         
         
-        padding: 0 0 10 20;
+        padding-left: 20px;
+        margin-bottom: 20px;
        
         
-       
-        
+    }
+    #tout_bleu_et_blanc,#au_coeur_de_l_eau
+    {
+        margin-top: 100px;
+        padding: 5 5 5 5;
+    }
+    #le_soleil_du_matin
+    {
+        margin-top: 50px;
+        padding: 5 5 5 5;
+    }
+    aside img 
+    {
+       width: 150px;
+    }
+    .intitulé
+    {
+        font-size: x-large;
     }
     article
     {
