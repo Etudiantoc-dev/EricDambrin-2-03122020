@@ -353,7 +353,7 @@ section a, article a
 }
 .acannebiere, .hport, .hmouettes, .hmer, .lepanier, .hchezamina
 {
-    border: 1px white solid;
+    
     background-color: white;
     border-radius: 25px;
     padding: 5px 5px 15px 5px;
@@ -464,9 +464,7 @@ aside
 #le_soleil_du_matin
 {
     display: flex;
-    
     margin-top: 12px;
-    border: 1px white solid;
     background-color: white;
     border-radius: 25px;
     padding: 3px 0 0 3px;
@@ -479,9 +477,7 @@ aside
 {
     
     display: flex;
-    
     margin-top: 40px;
-    border: 1px white solid;
     background-color: white;
     border-radius: 25px;
     padding: 3px 0 0 3px;
@@ -492,12 +488,10 @@ aside
 {
     
     display: flex;
-    
     margin-top: 40px;
-    border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 3px 5px 0 3px; 
+    padding: 3px 0 0 3px; 
     box-shadow: 0px 4px #eeeaea;
     
 }
