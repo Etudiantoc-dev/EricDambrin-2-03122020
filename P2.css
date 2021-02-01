@@ -375,7 +375,7 @@ section a, article a
  .stars_blue
 {
     
-    color:  #0065FC
+    color: #0065FC
     
     
 }
@@ -384,7 +384,7 @@ section a, article a
     color: #c9c6c6;
     
 }
-.stars,.stars2 /* pourquoi celà s'adresse à toutes les étoiles même "stars2"?*/
+.stars,.stars2
 {
     display: flex;
     font-size: small;
@@ -396,10 +396,13 @@ section a, article a
 {
     
     margin-top: 100px;
-    position: absolute;
-    right: 175px;
+    position: relative;
+    right: 140px;
+
     
 }
+/* je n'arrive pas à caler ces étoiles en desktop??*/
+
 
 
 
@@ -410,6 +413,7 @@ aside
     height: 662px;
     background-color: #F2F2F2;
     border-radius: 15px;
+    padding-right: 10px;
     
     
 }
@@ -482,11 +486,6 @@ aside
     border-radius: 25px;
     padding: 3px 0 0 3px;
     box-shadow: 0px 4px #eeeaea;
-    
-    
-    
-    
-    
 }
 
 #tout_bleu_et_blanc
@@ -498,8 +497,7 @@ aside
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
-    padding: 3px 5px 0 3px; /*bonne dimension si 40,pas 5 sur padding right mais
-    problème de dimension quand l'écran ordi tout seul??*/
+    padding: 3px 5px 0 3px; 
     box-shadow: 0px 4px #eeeaea;
     
 }
@@ -609,10 +607,10 @@ footer a
 /*le média max-device-width est déconseillé par le validateur??*/
 {
    
-    #bloc_page 
+    body
     {
         width: max-content;
-        padding: 0 0 0 0;
+        
         
         
     }
@@ -630,7 +628,7 @@ footer a
         position: relative;
         right: 150px;
         
-        /* est-ce normal que j'ai recourt à la position relative??*/
+        /* est-ce normal que j'ai recours à la position relative??*/
         
         
     }
@@ -801,15 +799,23 @@ footer a
       
      
   }
-  .acannebiere, .hport, .hmouettes, .hmer, .alepanier, .hchezamina
+  .acannebiere, .hport, .hmouettes,.hmer , .alepanier, .hchezamina
 {
     margin-bottom: 20px;
     
 }
+.hchezamina
+{
+    margin-top: 20px;
+}
+.hmouettes
+{
+    margin-bottom: 2px;
+}
 #hébergement_à_Marseille
 {
    margin-left:20px;
-    font-size: medium;
+    font-size:x-large;
     position: relative;
     bottom: 10px;
 }
@@ -831,7 +837,7 @@ address img
  {
      
      
-     padding-right: 25px;
+     width: 428px;
      margin: auto;
     border-radius: 0px;
     padding-bottom: 20px;
@@ -839,6 +845,8 @@ address img
    
     /*comment grossir l'ensemble photos+descrptif de manière proportionnelle?*/
  }
+
+ 
 
   
   article
@@ -894,32 +902,25 @@ address img
   footer 
   {
       
-      width: 805px;
-      height: 22%;
+      width: 250px;
+      margin: auto;
+      margin-top:1230px ;
+      
+      /*pourquoi les phrases sont tant espacées?*/
+      /*je n'arrive pas à élargir le bloc gris?*/
+  }
+  #aide
+  {
       flex-direction: column;
-      margin-top:1080px ;
-      
-      
-  }
-  .a_propos
-  {
-      margin-left: 0%;
-      
-      
-      
-  }
-  .a_propos,.hebergements,.assistance
-  {
-      margin-left: 18px;
-      
-      
+      font-size: large;
       
       
   }
   .assistance
   {
-      margin-bottom: 120px;
+      margin-right: 115px;
   }
+  
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
   @media  only screen and (device-width: 768px) /*pareil que iphone déconseillé??*/
@@ -1098,8 +1099,16 @@ address img
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
-     /*je n'arrive pas à descendre parc longchamp pour l'aligner??*/
-   
+    
+   .a_propos,.hebergements,.assistance
+   {
+       margin-left:auto ; /*pourquoi celà agit sur la présentation desktop*/
+   }
+   footer
+   {
+       padding-right: 10px;
+   }
+
     
    
     
