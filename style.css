@@ -403,7 +403,7 @@ section a, article a
 
 aside
 {
-    justify-content: flex;
+    
     margin-left: 20px;
     height: 662px;
     background-color: #F2F2F2;
@@ -435,7 +435,8 @@ aside
 {
    
    
-    font-size: 1.2em;
+    font-size: x-large;
+    font-weight: bold;
     
    
 }
