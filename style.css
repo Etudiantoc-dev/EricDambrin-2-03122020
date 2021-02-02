@@ -857,7 +857,7 @@ address img
   #activités
   {
       
-      margin: aut;
+      margin: auto;
       margin-top: 100px;
     flex-direction: column;
     
@@ -916,7 +916,7 @@ address img
   
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media  only screen and (max-width: 768px) /*pareil que iphone déconseillé??*/
+  @media  only screen and (min-width:426px) and (max-width: 768px) /*pareil que iphone déconseillé??*/
   {
      body 
      {
@@ -1082,7 +1082,7 @@ address img
         
         
     } 
-    }
+    
     .port,.fort,.ile,.parc_n,.notre_dame,.parc_l
     {
       margin-right: 20px;
