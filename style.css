@@ -21,7 +21,7 @@ body
     
 
 }
-ul
+nav
 {
     display: flex;
     flex-wrap: wrap;
@@ -31,19 +31,7 @@ ul
     display: flex;
 }
 
-
-
-
-nav ul
-{
-    
-    list-style-type: none;
-    
-    
-}
-
-
-nav a 
+nav a
 {
     
     text-decoration: none ;
@@ -51,9 +39,10 @@ nav a
     margin-right: 15px;
     margin-left: 50px;
    
-    
-    
-    
+}
+.sinscrire a
+{
+    color: #0065FC;
 }
 nav a:hover
 {
@@ -414,7 +403,7 @@ section a, article a
 
 aside
 {
-
+    
     margin-left: 20px;
     height: 662px;
     background-color: #F2F2F2;
@@ -434,8 +423,8 @@ aside
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-     margin-top: 20px;
-     margin-right:30px;
+    margin-top: 40px;
+    margin-right:30px;
 }
 #chartline
 {
@@ -446,7 +435,8 @@ aside
 {
    
    
-    font-size: 1.2em;
+    font-size: 1.7em;
+    font-weight: bold;
     
    
 }
@@ -470,7 +460,7 @@ aside
 #le_soleil_du_matin
 {
     display: flex;
-    margin-top: 12px;
+    margin-top: 30px;
     background-color: white;
     border-radius: 25px;
     padding: 3px 0 0 3px;
@@ -603,7 +593,7 @@ footer a
 
 
 
-@media screen and (max-device-width:425px)
+@media screen and (max-width:425px)
 /*le média max-device-width est déconseillé par le validateur??*/
 {
    
@@ -615,7 +605,7 @@ footer a
         
     }
     
-    ul
+    nav
     {
        flex-direction: column-reverse;
        margin-top: 90px;
@@ -678,7 +668,7 @@ footer a
     {
         display: block;
         color: white;
-        margin-top: 2px;
+        margin-top: 5px;
         
     }
     #formulaire i,.submit,#loupe,#ville.texte,::placeholder,#formulaire
@@ -699,6 +689,7 @@ footer a
         border-radius: 15px;
         background-color: #0065FC;
         color: white;
+        height: 35px;
         
         
     }
@@ -720,20 +711,21 @@ footer a
    {
        
        flex-direction: column;
-       margin-top: auto;
        font-weight: bolder;
+       
        
 
     }
    
-   #liens
+   #liens 
    {
        flex-direction: column;
        position: relative; /*pourquoi margin ne marche pas??*/
        right: 85px;
-       margin-top: 15px;
+       
        
    }
+  
    #liens a 
    {
        font-size: x-large;
@@ -745,6 +737,7 @@ footer a
    .filtres
    {
        font-size: x-large;
+       
    }
   #romani
   {
@@ -864,8 +857,8 @@ address img
   #activités
   {
       
-      margin: auto;
-      margin-top: 50px;
+      margin: aut;
+      margin-top: 100px;
     flex-direction: column;
     
     
@@ -923,7 +916,7 @@ address img
   
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media  only screen and (device-width: 768px) /*pareil que iphone déconseillé??*/
+  @media  only screen and (max-width: 768px) /*pareil que iphone déconseillé??*/
   {
      body 
      {
