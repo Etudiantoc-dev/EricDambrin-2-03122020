@@ -567,19 +567,15 @@ footer a
 @media  screen  and (max-width:425px)
 /*le média max-device-width est déconseillé par le validateur??*/
 {
-    
-    #logo_nav
+    #bloc_page
     {
-        justify-content: flex-start;
+        margin: 0 0 0 0;
+       
     }
-   
-
- 
-   
     nav
     {
        flex-direction: column-reverse;
-       align-items: center;
+       align-items: flex-end;
        
        
     }
@@ -595,15 +591,17 @@ footer a
         
         
     }
+    .activite
+    {
+        position: relative;
+        left: 90px;
+    }
     .sinscrire
     {
        
         margin-top: 30px;
     }
-    .hebergement
-    {
-        
-     
+    
     }
     ul a 
     {
@@ -618,6 +616,7 @@ footer a
    {
        
        margin-top: 50px;
+       
        width: 350px;/*faut-il que je délimite une largeur pour que le texte aille
        à la ligne quand je grossis la police??*/
        
