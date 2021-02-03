@@ -147,6 +147,8 @@ nav a:hover
     
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
+
     
     
     
@@ -161,7 +163,9 @@ nav a:hover
 #liens
 {
     display: flex;
-    flex-wrap: wrap;
+    
+    
+    
 }
 #ecofami
 {
@@ -180,7 +184,7 @@ nav a:hover
     color: #0065FC;
     background-color:#DEEBFF;
     position: relative;
-    left: 82px;
+    left: 82p;
     
     
     
@@ -200,8 +204,12 @@ nav a:hover
     padding-left: 30px;
     
     
+    
+    
+    
   
 }
+
 
 #liens a:hover
 {
@@ -556,71 +564,68 @@ footer a
 
 
 
-@media screen and (max-width:425px)
+@media  screen  and (max-width:425px)
 /*le média max-device-width est déconseillé par le validateur??*/
 {
-   
-    body
-    {
-        width: max-content;
-        
-        
-        
-    }
     
+    #logo_nav
+    {
+        justify-content: flex-start;
+    }
+   
+
+ 
+   
     nav
     {
        flex-direction: column-reverse;
-       margin-top: 90px;
+       align-items: center;
+       
        
     }
+
     .hebact
     {
         
-        margin-top: 50px;
+       
         position: relative;
-        right: 150px;
-        
-        /* est-ce normal que j'ai recours à la position relative??*/
+        right: 130px;
+        top: 30px;
+       
         
         
     }
     .sinscrire
     {
-        align-self: flex-end;
-        margin-top: 25px;
-        margin-right: 40px;
-        
+       
+        margin-top: 30px;
     }
     .hebergement
     {
         
-        margin-right: 150px;
-        margin-left: 0px;
+     
     }
     ul a 
     {
         font-size: x-large;
     }
-    header img 
-    {
-        width: 180px;
-       
-    }
+    
    
     
   
     
   #titre_principal
    {
-       font-size: 27px;
-       margin-bottom: 10px;/*faut-il que je délimite une largeur pour que le texte aille
+       
+       margin-top: 50px;
+       width: 350px;/*faut-il que je délimite une largeur pour que le texte aille
        à la ligne quand je grossis la police??*/
        
    }
    #sous_titre
    {
-       font-size: 25px;
+       width: max-content;
+       margin-top: 10px;
    }
    
    .submit
@@ -631,20 +636,15 @@ footer a
     {
         display: block;
         color: white;
-        margin-top: 5px;
+        
+        
         
     }
-    #formulaire i,.submit,#loupe,#ville.texte,::placeholder,#formulaire
-    {
-        font-size: xx-large;
-        
-    }
+   
     #ville.texte
     {
-        height: 66px;
-        margin-top: 0.5px; /*je n'arrive pas à coller la loupe sur le cadre du placeholder*/
        
-        
+        margin-top: 5px;
     }
     #loupe i 
     {
@@ -652,7 +652,7 @@ footer a
         border-radius: 15px;
         background-color: #0065FC;
         color: white;
-        height: 35px;
+        
         
         
     }
@@ -662,14 +662,12 @@ footer a
         display: flex;
         margin-top: 15px;
     }
-    #formulaire i
-    {
-        margin: auto;
-    }
+    
     ::placeholder
     {
         color: black;
     }
+  
     #conteneur 
    {
        
@@ -683,23 +681,26 @@ footer a
    #liens 
    {
        flex-direction: column;
-       position: relative; /*pourquoi margin ne marche pas??*/
-       right: 85px;
+      margin-right: 30px;
        
+       
+   }
+   #ecofami
+   {
        
    }
   
    #liens a 
    {
-       font-size: x-large;
+       
    }
    #liens i 
    {
-       font-size: x-large;
+       
    }
    .filtres
    {
-       font-size: x-large;
+       
        
    }
   #romani
@@ -713,19 +714,19 @@ footer a
   }
   
    
- .logo,.informatif
+ .informatif
   {
-        font-size: x-large;
+       
   }
   .logo
   {
-     padding: 0 0 3px 0;
+     
      /* je n'arrive pas à enlever le résidu de bleu qui vient du background color dans le cercle?*/
   }
   section 
  {
      
-     
+    display: none;
     flex-direction: column;
     
     
@@ -807,7 +808,7 @@ address img
   
   article
   {
-      
+    display: none;
     width: 414px;
     margin: auto;
     margin-top:260% ;
@@ -857,7 +858,7 @@ address img
 
   footer 
   {
-      
+    display: none;
       width: 250px;
       margin: auto;
       margin-top:1230px ;
@@ -879,7 +880,7 @@ address img
   
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media  only screen and (min-width:426px) and (max-width: 768px) /*pareil que iphone déconseillé??*/
+  @media   screen and (min-width:426px) and (max-width: 768px) /*pareil que iphone déconseillé??*/
   {
      body 
      {
