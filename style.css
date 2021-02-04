@@ -610,9 +610,9 @@ footer a
     }
     
     
-    ul a 
+    nav a 
     {
-        font-size: x-large;
+        font-size: large;
     }
     
    
@@ -624,7 +624,7 @@ footer a
        
        margin-top: 60px;
        
-       width: 400px;/*ou 350px comme sur la maquette*/
+       width: 400px;/*ou 350px plus proche de la maquette*/
        
        
    }
@@ -747,6 +747,8 @@ footer a
       margin-top: 17px;
   }
   
+
+  
   .logo
   {
      
@@ -769,6 +771,7 @@ footer a
      width: 425px;
      background-color: #F2F2F2;
      border-radius: 0px;
+     margin-top: 0%;
      
      
     
@@ -807,8 +810,6 @@ footer a
 }
 .lien
 {
-    
-    
     margin-left: 25px;
 }
 #address img 
@@ -831,7 +832,7 @@ footer a
      width: 425px;
     border-radius: 0px;
     
-    /*comment grossir l'ensemble photos+descrptif de manière proportionnelle?*/
+    
  }
  #hotels_lpp img 
  {
@@ -881,11 +882,11 @@ footer a
   {
     
     width: 428px;
+      padding-top: 0%;
+      margin-top: 30px;
       
       
       
-      /*pourquoi les phrases sont tant espacées?*/
-      /*je n'arrive pas à élargir le bloc gris?*/
   }
   #aide
   {
@@ -904,8 +905,8 @@ footer a
   
   
 }
-  /* sur mon téléphone le contenu de footer sort du cadre??*/
-  @media   screen and (min-width:426px) and (max-width: 768px) /*pareil que iphone déconseillé??*/
+  
+  @media   screen and (min-width:426px) and (max-width: 768px) 
   {
     #conteneur 
     {
