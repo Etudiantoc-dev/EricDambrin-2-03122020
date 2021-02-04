@@ -44,10 +44,16 @@ nav a
 .sinscrire a
 {
     color: #0065FC;
+    
 }
-nav a:hover
+.sinscrire a:hover
 {
     color: #0065FC;
+}
+.hebergement a:hover,.activite a:hover
+{
+    color: #0065FC;
+    text-decoration: overline;
 }
 
 
@@ -330,7 +336,7 @@ section a, article a
     
     
 }
-.hmer, .lepanier, .hchezamina
+.hmer, .lepanier, .hchezamina,.hmouettes,.hport,.acannebiere
 {
     margin-top: 25px;
 }
@@ -572,6 +578,7 @@ footer a
     #bloc_page
     {
         margin: 0 0 0 0;
+        
        
     }
     header
@@ -780,7 +787,7 @@ footer a
  
   .acannebiere, .hport, .hmouettes,.hmer , .lepanier, .hchezamina
 {
-    margin-bottom: 20px;
+    
     font-size: larger;
     
 }
@@ -793,10 +800,7 @@ footer a
     font-size: medium;
     margin-top: 60px;
 }
-.hchezamina
-{
-    margin-top: 20px;
-}
+
 .hmouettes
 {
     margin-bottom: 2px;
