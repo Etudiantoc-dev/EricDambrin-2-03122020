@@ -710,7 +710,9 @@ footer a
    #ecofami
    {
        
-       position: relative;
+       position: relative;/* si je fais width:max-content ça replace
+       parfaitement logos et liens mais ça change le format générale
+       de présentation sur téléphone??*/
        right: 80px;
        margin-top: 15px;
    }
@@ -732,15 +734,7 @@ footer a
       
        padding-right: 15px;
    }
-   #liens i 
-   {
-       
-   }
-   .filtres
-   {
-       
-       
-   }
+   
   #romani
   {
       flex-direction: column;
@@ -752,12 +746,6 @@ footer a
       margin-top: 17px;
   }
   
-  
-   
- .informatif
-  {
-       
-  }
   .logo
   {
      
@@ -766,40 +754,35 @@ footer a
   section 
  {
      
-    display: none;
+    
     flex-direction: column;
     
-    
+    margin-top: 50px;
     
    
     
  }
- address
+ #address
  {
-     
-     width: 414px;
-     height: 500%;
-     margin: auto;
+    
+     width: 425px;
      background-color: #F2F2F2;
-     padding-left: 20px;
      border-radius: 0px;
+     
      
     
  }
  
- #hotel,#hotel_2
-  {
-      
-      flex-direction: column;
-      padding-right: 45px;
-      padding-left: 20px;
-      
-     
-  }
-  .acannebiere, .hport, .hmouettes,.hmer , .alepanier, .hchezamina
+ 
+  .acannebiere, .hport, .hmouettes,.hmer , .lepanier, .hchezamina
 {
     margin-bottom: 20px;
+    font-size: larger;
     
+}
+.stars,.stars2
+{
+    font-size: large;
 }
 .hchezamina
 {
@@ -819,58 +802,46 @@ footer a
 .lien
 {
     
-    margin: auto;
+    
     margin-left: 25px;
 }
-address img 
+#address img 
 {
-    
-    height: 180px;
+    width: 400px;
+    height: 160px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+}
+.stars2
+{
+    position: relative;
+    bottom: 10px;
 }
 
  aside
  {
      
-     
-     width: 428px;
-     margin: auto;
+     font-size: larger;
+     width: 425px;
     border-radius: 0px;
-    padding-bottom: 20px;
-    margin-top: 15px;
-   
+    
     /*comment grossir l'ensemble photos+descrptif de manière proportionnelle?*/
  }
 
- 
-
-  
-  article
-  {
-    display: none;
-    width: 414px;
-    margin: auto;
-    margin-top:260% ;
-  }
-  #titre_activités
-  {
-    position: relative;
-    left: 20px;
-  }
   #activités
   {
       
-      margin: auto;
-      margin-top: 100px;
+     
     flex-direction: column;
+    padding-left: 15px;
+    font-size: larger;
     
     
   }
   #activités img 
   {
-      width: 380px;
-      height: 180px;
+      width: 400px;
+      height: 160px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
      
@@ -878,7 +849,7 @@ address img
   .fort,.ile,.parc_n,.parc_l,.notre_dame,.port
   {
       margin-right: 22px;
-      padding-left: 10px;
+     
       position: relative;
       margin-bottom: 20px;
       
@@ -898,25 +869,29 @@ address img
 
   footer 
   {
-    display: none;
-      width: 250px;
-      margin: auto;
-      margin-top:1230px ;
+    
+    width: 428px;
+      
+      
       
       /*pourquoi les phrases sont tant espacées?*/
       /*je n'arrive pas à élargir le bloc gris?*/
   }
   #aide
   {
+    
       flex-direction: column;
       font-size: large;
-      
+      margin: aut;
       
   }
-  .assistance
+  .assistance,.hebergements,.a_propos
   {
-      margin-right: 115px;
+      margin-left: 25px;
   }
+  
+ 
+  
   
 }
   /* sur mon téléphone le contenu de footer sort du cadre??*/
