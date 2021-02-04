@@ -668,10 +668,24 @@ footer a
         margin-top: 15px;
        
     }
+    #formulaire i,#ville.texte,::placeholder,#formulaire
+    {
+        font-size: larger;
+    }
+    #ville.texte
+    {
+        height: 50px;
+    }
+    #loupe
+    {
+        margin-top: 2px;
+    }
+
     
     ::placeholder
     {
         color: black;
+        font-size: large;
     }
   
     #conteneur 
