@@ -163,6 +163,8 @@ nav a:hover
 #liens
 {
     display: flex;
+   
+    
     
     
     
@@ -170,6 +172,7 @@ nav a:hover
 #ecofami
 {
     display: flex;
+    
 }
 #romani
 {
@@ -184,14 +187,12 @@ nav a:hover
     color: #0065FC;
     background-color:#DEEBFF;
     position: relative;
-    left: 82p;
+    left: 82px;
     
-    
-    
-    
-    
+   
     
 }
+
 
 
 
@@ -572,6 +573,10 @@ footer a
         margin: 0 0 0 0;
        
     }
+    header
+    {
+        margin: 0 10px 0 10px;
+    }
     nav
     {
        flex-direction: column-reverse;
@@ -594,15 +599,16 @@ footer a
     .activite
     {
         position: relative;
-        left: 90px;
+        left:80px;
     }
     .sinscrire
     {
        
         margin-top: 30px;
+        margin-right: 20px;
     }
     
-    }
+    
     ul a 
     {
         font-size: x-large;
@@ -615,10 +621,10 @@ footer a
   #titre_principal
    {
        
-       margin-top: 50px;
+       margin-top: 60px;
        
-       width: 350px;/*faut-il que je délimite une largeur pour que le texte aille
-       à la ligne quand je grossis la police??*/
+       width: 400px;/*ou 350px comme sur la maquette*/
+       
        
    }
    #sous_titre
@@ -655,11 +661,12 @@ footer a
         
         
     }
-    
+   
     form 
     {
         display: flex;
         margin-top: 15px;
+       
     }
     
     ::placeholder
