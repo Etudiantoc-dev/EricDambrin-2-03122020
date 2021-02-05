@@ -244,12 +244,12 @@ input:focus
 }
 .logo
 {
-    border:2px#F2F2F2 solid;
-    border-radius: 20px;
+    border:1px#F2F2F2 solid;
+    border-radius: 20px ;
     background-color:#0065FC;
     color:white;
-    font-size: 20px;
     height: 20px;
+   
     
 }
 section
@@ -753,13 +753,6 @@ footer a
       margin-top: 17px;
   }
   
-
-  
-  .logo
-  {
-     
-     /* je n'arrive pas à enlever le résidu de bleu qui vient du background color dans le cercle?*/
-  }
   section 
  {
      
