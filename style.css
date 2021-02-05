@@ -56,7 +56,6 @@ nav a
     text-decoration: overline;
 }
 
-
 #logo_nav
 {
     display: flex;
@@ -113,7 +112,7 @@ nav a
     padding-left: 25px;
     padding-right: 15px;
     border-top:1px #F2F2F2 solid;
-    border-bottom:  #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
     border-right: none;
     border-left: none;
     
@@ -139,12 +138,11 @@ nav a
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     color: white;
+    
   
-    
-    
-    
-    
 }
+ 
+
 
 
 
@@ -212,10 +210,11 @@ nav a
     padding-left: 30px;
     
     
-    
-    
-    
-  
+}
+input:focus
+{
+    outline: none;/* pour le navigateur Chrome*/
+    border: none;/*pour le navigateur firefox*/
 }
 
 
