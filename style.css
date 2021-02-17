@@ -389,7 +389,7 @@ section a, article a
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 40px;
+    margin-top: 13px;
     margin-right:30px;
 }
 
@@ -593,7 +593,8 @@ footer a
     }
     header
     {
-        margin: 0 10px 0 10px;
+        width: 100%;
+        margin: 40px;
     }
     nav
     {
@@ -728,9 +729,7 @@ footer a
    #ecofami
    {
        
-       position: relative;/* si je fais width:max-content ça replace
-       parfaitement logos et liens mais ça change le format générale
-       de présentation sur téléphone??*/
+       position: relative;
        right: 80px;
        margin-top: 15px;
    }
@@ -778,7 +777,7 @@ footer a
  #address
  {
     
-     width: 425px;
+     width: 480px;
      background-color: #F2F2F2;
      border-radius: 0px;
      margin-top: 0%;
@@ -836,7 +835,7 @@ footer a
  {
      
      font-size: larger;
-     width: 425px;
+     width: 440px;
     border-radius: 0px;
     
     
@@ -846,13 +845,12 @@ footer a
      height: 150px;
  }
  
-
   #activités
   {
       
      
     flex-direction: column;
-    padding-left: 15px;
+    margin-left: 35px;
     font-size: larger;
     
     
@@ -863,6 +861,7 @@ footer a
       height: 160px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
+   
      
   }
   .fort,.ile,.parc_n,.parc_l,.notre_dame,.port
@@ -870,6 +869,7 @@ footer a
       margin-right: 22px;
       position: relative;
       margin-bottom: 20px;
+     
       
      
 
@@ -880,17 +880,17 @@ footer a
   }
   #titre_activités
   {
-      margin-left: 15px;
-      position: relative;
-      top:10px;
+      margin-left: 35px;
+      
   }
 
   footer 
   {
     
-    width: 428px;
-      padding-top: 0%;
+      width: 480px;
+      padding-top: 5%;
       margin-top: 30px;
+      
       
       
       
@@ -905,7 +905,7 @@ footer a
   }
   .assistance,.hebergements,.a_propos
   {
-      margin-left: 25px;
+      margin-left: 30px;
   }
   
  
@@ -984,8 +984,8 @@ footer a
    }
    aside
    {
-       width: 100%;
-       height: max-content;
+       width: 94%;
+       margin: 10 0 0 0;
        
    }
    section
@@ -994,15 +994,19 @@ footer a
    }
    #hotels_lpp
    {
-       display: flex;
+      width: 75%;
+       
       
    }
    #hotels_lpp img 
    {
-       width:190px;
-       border-bottom-left-radius: 0px;
-       border-top-right-radius: 17px;
+       width:180px;
+       border-top-right-radius: 0px;
        
+   }
+   .stars2
+   {
+       margin-top: 80px;
    }
    #le_soleil_du_matin,#au_coeur_de_l_eau,#tout_bleu_et_blanc
    {
@@ -1016,8 +1020,5 @@ footer a
    {
        font-size: large;
    }
-   .stars2
-   {
-       margin-bottom: 10px;
-   }
+   
 }
