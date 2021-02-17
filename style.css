@@ -256,7 +256,7 @@ input:focus
    
     
 }
-section
+#heberge
 {
     display: flex;
     justify-content: space-between;
@@ -289,7 +289,7 @@ aside
     align-content: space-between;
     
 }
-#address img,article img
+#address img,#activity img
 {
    
     border-radius: 17px;
