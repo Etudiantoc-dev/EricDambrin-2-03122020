@@ -8,17 +8,17 @@
 
 }
 
+ 
+    body{
 
-body
-{
     
     font-family:"Raleway",Georgia, 'Times New Roman', Times, serif;
     background-color:white ;
-    max-width: 1800px;
+  
     margin:auto;
     
-    
-}
+    } 
+
 #bloc_page
 {
    
@@ -417,7 +417,7 @@ section a, article a
 #hotels_lpp
 {
     padding-bottom: 20px;
-    width: 95%;
+    max-width: 95%;
     margin: auto;
     margin-top: 20px;
     
@@ -913,8 +913,9 @@ footer a
   
 }
   
-  @media   screen and (min-width:426px) and (max-width: 768px) 
+  @media   screen and (min-width:768px) and (max-width: 1200px) 
   {
+    
     #conteneur 
     {
         
@@ -994,7 +995,7 @@ footer a
    }
    #hotels_lpp
    {
-      width: 75%;
+      max-width: 75%;
        
       
    }
@@ -1022,3 +1023,95 @@ footer a
    }
    
 }
+@media screen and (min-width:1024px)and (max-width:1439px){
+   
+    h1 {
+        font-size: xx-large;
+    }
+    .hebergement, .activite, .sinscrire,#conteneur,#information,p,h4 {
+        font-size: x-large;
+    }#logo_nav img{
+       width:20%;
+    }#sous_titre,h3 {
+        font-size: xx-large;
+    }
+    #formulaire i, #formulaire input, ::placeholder{
+        
+        font-size: 30px;
+    }
+    body{
+        font-size: 1.1em;
+    }
+    span,strong{
+        font-size: x-large;
+        
+    }
+    .acannebiere, .hport, .hmouettes, .hmer, .lepanier, .hchezamina{
+        width: 30%;
+    }
+    aside{
+        width: 96%;
+    }
+    .stars2{
+        margin-top: 60px;
+    }
+    .port,.parc_n{
+        width: 32%;
+    }
+    .parc_l{
+        margin-left: 600px;
+        position: relative;
+        bottom: 55%;
+        
+    }
+    .notre_dame{
+        
+        width: 32%;
+    }
+ 
+    .notre_dame, .parc_l,.port,.parc_n,.ile,.fort{
+       align-items: center;
+    }
+        
+    }
+ 
+ 
+    @media screen and (min-width:1024px)and (max-width:1439px){
+     #hotels_lpp {
+         max-width: 60%;
+     }
+    }
+ 
+ }
+ @media screen and (width:2560px){
+     #hotels_lpp{
+         max-width: 60%;
+     }
+ }
+ @media screen and (width:1440px){
+     h1 {
+         font-size: xx-large;
+     }
+     .hebergement, .activite, .sinscrire,#conteneur,#information,p,h4 {
+         font-size: x-large;
+     }#logo_nav img{
+        width:20%;
+     }#sous_titre,h3 {
+         font-size: xx-large;
+     }
+     #formulaire i, #formulaire input, ::placeholder{
+         
+         font-size: 30px;
+     }
+     body{
+         font-size: 1.1em;
+     }
+     span,strong{
+         font-size: x-large;
+         
+     }
+ }
+
+
+
+    
