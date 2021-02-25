@@ -826,9 +826,9 @@ footer a
 }
 .image
 {
-    width: 200px;
-   margin: auto;
-   margin-left: 30%;
+    
+  padding: 5px 0 0 20px;
+   
 }
 .stars2
 {
