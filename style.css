@@ -536,19 +536,16 @@ footer
    
 
     display: flex;
-    
+    justify-content: space-around;
    
 
     
 }
 .a_propos,.hebergements,.assistance
 {
-    margin-right: auto;
+    margin-right: 17%;
 }
-.a_propos
-{
-    margin-left: 50px;
-}
+
 
 
  
@@ -905,9 +902,8 @@ footer a
   {
     
       width: 100%;
-      margin: auto;
-      padding: 0 108px 0 0;
-      margin-top: 30px;
+      padding:50px;
+     
       
       
       
@@ -923,7 +919,7 @@ footer a
   }
   .assistance,.hebergements,.a_propos
   {
-      margin-left: 30px;
+      
   }
   
  
