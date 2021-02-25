@@ -776,8 +776,7 @@ footer a
  {
     
      width: 100%;
-     margin: auto;
-     padding: 30px 0px 0 115px;
+     padding: 50px;
      background-color: #F2F2F2;
      border-radius: 0px;
      margin-top: 0%;
@@ -791,7 +790,7 @@ footer a
 {
     
     font-size: larger;
-    margin-right: 100px;
+    
     
 }
 .stars
@@ -813,15 +812,15 @@ footer a
     width: 100%;
     font-size:x-large;
     position: relative;
-    bottom: 10px;
-    right: 100px;
+   
+    right: 50px;
 }
 .lien
 {
     width: 50%;
    position: relative;
-   right: 120px;
-   bottom: 10px;
+   right: 80px;
+  
     
 }
 .image
@@ -840,23 +839,25 @@ footer a
  {
      
     width: 100%;
-    padding: 0 0 0 115px;
+    padding: 50px;
     background-color: #F2F2F2;
     border-radius: 0px;
     
     
  }
- #titre_lpp{
-     position: relative;
-     right: 25%;
- }
+ 
  #le_soleil_du_matin, #au_coeur_de_l_eau,#tout_bleu_et_blanc {
-   position: relative;
-   right: 18%;
-   padding: 12px 0 0 0;
+ 
+  
    font-size: large;
    width: 100%;
    
+ }
+ #hotels_lpp img{
+     width:100%;
+     padding: 0 10px 0 10px;
+     position: relative;
+     right: 13%;
  }
 
  
