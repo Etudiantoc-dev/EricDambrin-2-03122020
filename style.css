@@ -775,7 +775,9 @@ footer a
  #address
  {
     
-     width: 480px;
+     width: 100%;
+     margin: auto;
+     padding: 30px 0px 0 115px;
      background-color: #F2F2F2;
      border-radius: 0px;
      margin-top: 0%;
@@ -789,6 +791,7 @@ footer a
 {
     
     font-size: larger;
+    margin-right: 100px;
     
 }
 .stars
@@ -807,41 +810,56 @@ footer a
 }
 #hébergement_à_Marseille
 {
-   margin-left:20px;
+    width: 100%;
     font-size:x-large;
     position: relative;
     bottom: 10px;
+    right: 100px;
 }
 .lien
 {
-    margin-left: 25px;
+    width: 50%;
+   position: relative;
+   right: 120px;
+   bottom: 10px;
+    
 }
-#address img 
+.image
 {
-    width: 400px;
-    height: 160px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    width: 200px;
+   margin: auto;
+   margin-left: 30%;
 }
 .stars2
 {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
 }
 
  aside
  {
      
-     font-size: larger;
-     width: 440px;
+    width: 100%;
+    padding: 0 0 0 115px;
+    background-color: #F2F2F2;
     border-radius: 0px;
     
     
  }
- #hotels_lpp img 
- {
-     height: 150px;
+ #titre_lpp{
+     position: relative;
+     right: 25%;
  }
+ #le_soleil_du_matin, #au_coeur_de_l_eau,#tout_bleu_et_blanc {
+   position: relative;
+   right: 18%;
+   padding: 12px 0 0 0;
+   font-size: large;
+   width: 100%;
+   
+ }
+
+ 
  
   #activités
   {
@@ -885,8 +903,9 @@ footer a
   footer 
   {
     
-      width: 480px;
-      padding-top: 5%;
+      width: 100%;
+      margin: auto;
+      padding: 0 108px 0 0;
       margin-top: 30px;
       
       
