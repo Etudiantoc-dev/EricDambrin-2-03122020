@@ -525,7 +525,7 @@ footer
 {
     
     background-color: #F2F2F2;
-    padding-top: 50px;
+    
     
 }
 
@@ -1034,6 +1034,9 @@ footer a
    .stars,.stars2
    {
        font-size: large;
+   }
+    .a_propos{
+      margin-left: 20px;
    }
    
 }
