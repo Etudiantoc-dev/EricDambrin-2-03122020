@@ -569,7 +569,9 @@ footer a
     font-weight: normal;
 }
 
-
+@media screen and (max-width:320px){
+   
+}
 @media  screen  and (max-width:425px)
 /*le média max-device-width est déconseillé par le validateur??*/
 {
@@ -770,7 +772,7 @@ footer a
  #address
  {
     
-     width: 100%;
+     width: 375px;
      padding: 50px;
      background-color: #F2F2F2;
      border-radius: 0px;
@@ -824,16 +826,12 @@ footer a
   padding: 5px 0 0 20px;
    
 }
-.stars2
-{
-    position: relative;
-    bottom: 20px;
-}
+
 
  aside
  {
      
-    width: 100%;
+    width: 375px;
     padding: 50px;
     background-color: #F2F2F2;
     border-radius: 0px;
@@ -845,11 +843,11 @@ footer a
  
   
    font-size: large;
-   width: 100%;
+   padding: 0px;
    
  }
  #hotels_lpp img{
-     width:100%;
+     width:110%;
      padding: 0 10px 0 10px;
      position: relative;
      right: 13%;
@@ -899,7 +897,7 @@ footer a
   footer 
   {
     
-      width: 100%;
+      width:375px;
       padding:50px;
      
       
@@ -915,10 +913,7 @@ footer a
       
       
   }
-  .assistance,.hebergements,.a_propos
-  {
-      
-  }
+ 
   
  
   
