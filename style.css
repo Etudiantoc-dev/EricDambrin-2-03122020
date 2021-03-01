@@ -9,25 +9,16 @@
 }
 
  
-    body{
-
-    
+    body
+{
     font-family:"Raleway",Georgia, 'Times New Roman', Times, serif;
-<<<<<<< HEAD
-    background-color:white;
-=======
     background-color:white ;
-  
     margin:auto;
->>>>>>> dernier-pour-corrections
-    
-    } 
+} 
 
 #bloc_page
 {
-   
-  margin: 10px 50px 0 50px;
-
+    margin: 10px 50px 0 50px;
 }
 h1
 {
