@@ -548,7 +548,8 @@ footer
  
 p
 {
-    font-family:"raleway-regular"
+    font-family:"raleway-regular";
+    
 }
 footer a
 {
@@ -569,9 +570,7 @@ footer a
     font-weight: normal;
 }
 
-@media screen and (max-width:320px){
-   
-}
+
 @media  screen  and (max-width:425px)
 /*le média max-device-width est déconseillé par le validateur??*/
 {
@@ -922,7 +921,14 @@ footer a
   
   @media   screen and (min-width:768px) and (max-width: 1024px) 
   {
-    
+    p{
+        width: max-content;
+
+    }
+    #aide{
+        justify-content: right;
+    }
+ 
     #conteneur 
     {
         
@@ -1031,6 +1037,7 @@ footer a
     .a_propos{
       margin-left: 20px;
    }
+
    
 }
 @media screen and (min-width:1024px)and (max-width:1439px){
