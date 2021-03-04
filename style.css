@@ -571,7 +571,7 @@ footer a
 }
 
 
-@media  screen  and (max-width:425px)
+@media  screen  and (max-width:674px)
 /*le média max-device-width est déconseillé par le validateur??*/
 {
     #bloc_page
@@ -780,6 +780,9 @@ footer a
      
     
  }
+ #address img{
+    width: 100%;
+ }
  
  
   .acannebiere, .hport, .hmouettes,.hmer , .lepanier, .hchezamina
@@ -918,8 +921,12 @@ footer a
   
   
 }
-  
-  @media   screen and (min-width:768px) and (max-width: 1200px) 
+  @media screen and (max-width:674px){
+      header{
+          
+      }
+  }
+  @media   screen and (min-width:426px) and (max-width: 1200px) 
   {
     p{
         width: max-content;
