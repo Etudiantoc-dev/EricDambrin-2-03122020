@@ -835,8 +835,10 @@ footer a
  aside
  {
      
-   width: 100%;
-   margin: auto;
+    width: 375px;
+    padding: 50px;
+    background-color: #F2F2F2;
+    border-radius: 0px;
     
     
  }
@@ -849,7 +851,7 @@ footer a
    
  }
  #hotels_lpp img{
-     width:max-content;
+     width:110%;
      padding: 0 10px 0 10px;
      position: relative;
      right: 13%;
@@ -923,7 +925,7 @@ footer a
 
   
   }
-  @media   screen and (min-width:674px) and (max-width: 1200px) 
+  @media   screen and (min-width:426px) and (max-width: 1200px) 
   {
     p{
         width: max-content;
@@ -1054,3 +1056,4 @@ footer a
     margin: auto;
 }
 }
+
