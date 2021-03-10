@@ -933,7 +933,8 @@ footer a
 
     }
     #aide{
-        justify-content: right;
+        justify-content: righ;
+        margin-left: 31px;
     }
  
     #conteneur 
