@@ -320,7 +320,7 @@ section a, article a
 .lien
 {
     margin-left: 55px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .lien a
 {
@@ -683,13 +683,16 @@ footer a
         margin-top: 15px;
        
     }
-    #formulaire i,#ville.texte,::placeholder,#formulaire
+    #formulaire i,#ville.texte,::placeholder
     {
         font-size: larger;
+        font-weight: bold;
+        
     }
     #ville.texte
     {
         height: 50px;
+        
     }
     #loupe
     {
