@@ -334,7 +334,7 @@ section a, article a
     min-width: 28%;
     background-color: white;
     border-radius: 25px;
-    padding: 5px 5px 15px 5px;
+    padding: 1px 0px 6px 0px;;
     box-shadow: 0px 4px #eeeaea;
     
     
@@ -574,7 +574,7 @@ footer a
 
 
 @media  screen  and (max-width:674px)
-/*le média max-device-width est déconseillé par le validateur??*/
+
 {
     #bloc_page
     {
@@ -783,7 +783,7 @@ footer a
     
  }
  #address img{
-    width: 100%;
+    width:100%;
  }
  
  
@@ -791,6 +791,7 @@ footer a
 {
     
     font-size: larger;
+    width: 100%;
     
     
 }
@@ -856,6 +857,9 @@ footer a
      position: relative;
      right: 14%;
      bottom: 3px;
+ }
+ #leshotels{
+     margin: -15px;
  }
 
  
